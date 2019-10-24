@@ -1,0 +1,336 @@
+/* 
+Theme Name: Grupo WZ
+Author:byron solutions
+License URI:byronsolutions.com
+2019
+*/ 
+
+
+
+/* DESENVOLVIDO POR BYRON SOLUTIONS*/ 
+
+@font-face {
+    font-family: Hillgates;
+    src: url(fonts/hillgates-webfont.woff);
+}
+
+
+
+.footer-copyright {
+    text-align: center;
+    bottom: 0;
+}
+
+.footer-copyright  p {
+    display: inline-block;
+    text-align: right;
+    font-size: 20px;
+    color: black;
+    left: 50px;
+}
+
+.footer-copyright a img {
+    width: 30%;
+    padding-top: 1%;
+    display: list-item;
+}
+
+.desenvolvido p{
+    color: white;
+    font-family: 'Raleway', sans-serif; 
+}
+.desenvolvido{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #024896;
+}
+
+
+/* FOOTER */
+
+.page-footer {
+  padding-top: 20px;
+  color: #fff;
+  background-color: #0A73B6;
+  width: 100%;
+  position: fixed;
+  position: absolute;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 0%;
+    font-family: 'Raleway', sans-serif; 
+
+}
+
+.esquerda_footer{
+    padding-left: 15%;
+}
+
+.direita_footer{
+    padding-left: 60%;
+}
+
+.fale-conosco{
+    font-size: 32px;
+    padding-top: 1%;
+}
+
+.fab{
+    padding-right: 3%!important;
+    font-size: 20px!important;
+}
+.fas{
+    padding-right: 3%!important;
+    font-size: 20px!important;
+}
+
+.contato_footer{
+    font-size: 17px;
+    padding-top: 1%;
+}
+
+.redes_sociais{
+    padding-right: 5%;
+}
+
+.logo_footer{
+    padding-top: 5%;
+}
+
+.icon{
+    padding-top: 25%;
+    padding-left: 3.5%;
+    font-size: 30px!important;
+}
+
+
+/* PAGINA SERVIÇOS */ 
+.grid_servicos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;     
+    font-family: 'Montserrat';
+    color: #0A73B6;
+
+}
+.imagem_servicos{
+    width: 100%;
+}
+
+.titulo_servicos{
+    text-align: center;
+    font-family: "Hillgates";
+    font-size: 35px;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    color: #0A73B6;
+    padding: 0 10px;
+}
+
+.sobreimagem1{
+    padding-bottom: 4%;
+}
+
+.servicos_texto1{
+    padding-left: 16%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    font-size: 1.2rem;
+}
+
+.imagem_topografia{
+    padding-left: 35%;
+    width: 35%;
+    padding-top: 2%;
+}
+
+.servicos_texto2{
+    padding-left: 15%;
+    padding-top: 8%;
+    padding-bottom: 4%;
+    font-size: 1.2rem;
+}
+
+.imagem_tecnologia{
+    padding-left: 30%;
+    width: 35%;
+    padding-top: 2%;
+}
+
+.servicos_texto3{
+    padding-left: 23%;
+    padding-top: 8%;
+    padding-bottom: 4%;
+    font-size: 1.2rem;
+}
+
+.imagem_imobiliaria{
+    padding-left: 33%;
+    width: 35%;
+    padding-top: 4%;
+}
+
+.sobretexto2{
+    color: black;
+    font-family: 'Raleway', sans-serif; 
+    padding-left: 11%;
+    padding-top: 13%;
+    padding-bottom: 4%;
+    font-size: 1.3rem;
+}
+
+.valorestitulo{
+    text-align: center;
+    font-family: 'Raleway', sans-serif; 
+    color: #2c1909;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.valoresdescricao{
+    font-size: 20px;
+    padding-left: 14%;
+    font-family: 'Raleway', sans-serif; 
+    padding-right: 1%;
+}
+
+
+/* PAGINA PRINCIPAL SERVIÇOS*/ 
+
+.titulo_servicos_principal{
+    font-size: 3rem;
+    color: #024896;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+.grid_servicos_principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 5%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 1%; 
+}
+
+.imagens_servicos{
+    width: 93%;
+}
+
+.descricao_servicos_principal{
+    text-align: center;
+    color: #024896;
+    font-family: 'Dosis', sans-serif; 
+    padding-bottom: 2%;   
+}
+
+/* OVERLAY SERVIÇOS */ 
+
+.container_servicos {
+  position: relative;
+}
+
+.overlay_servicos {
+  position: absolute; 
+  bottom: 0; 
+  background: #0A73B6; 
+  color: #f1f1f1; 
+  width: 93%;
+  padding-top: 59.5%;
+  padding-bottom: 6%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.container_servicos:hover .overlay_servicos{
+  opacity: 0.9;
+}
+
+.texto_overlay{
+    font-family: 'Dosis', sans-serif;
+    font-style: none;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.texto_overlay_baixo{
+    font-family: 'Dosis', sans-serif; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* EMPRESAS */
+
+.grid_empresa{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Dosis', sans-serif;  
+    padding-top: 3%;
+    padding-bottom:2%;   
+}
+.empresa_texto{
+    padding-left: 13%;
+    padding-right: 8%;
+}
+
+.empresa_imagem{
+    padding: 2%;
+}
+
+.imagem_empresa{
+    width: 80%;
+    padding-left: 10%;
+}
+.empresa_titulo{
+    color: #024896;
+    font-size: 3rem;
+    padding-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 6%;
+}
+
+.empresa_descricao{
+    padding-top: 1%;
+}
+
+
+/* MISSOES */ 
+.missoes{
+padding-bottom: 20%;
+}
+
+.fundo_missoes{
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+.texto_missoes{
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    padding-top: 10%;
+    font-size: 20px;
+    color: white;
+}
