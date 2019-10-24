@@ -26,7 +26,7 @@
 
 	</div>
 
-	<h1 class="descricao_servicos_principal">Nossos serviços estão presentes em 11 estados brasileiros e <br> continuamos a expansão</h1>
+	<p class="descricao_servicos_principal">Nossos serviços estão presentes em 11 estados brasileiros e <br> continuamos a expansão</p>
 
 </section>
 
@@ -53,13 +53,13 @@
 		<img class="fundo_missoes" src="<?php echo get_template_directory_uri(); ?>/img/fundo_missoes.png">
 			<div> <p class="ideologia_titulo">Ideologia Empresarial</p><h1 class="ideologia_traco">________________________________________</h1>
 				<div class="texto_missoes">
-					<h1>MISSÃO</h1>
+					<p class="missoes_texto">MISSÃO</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
-					<h1 class="traco_missoes">____________________________________________________________________________</h1>
-					<h1>VISÃO</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
-					<h1 class="traco_missoes">___________________________________________________________________________________</h1>
-					<h1>VALORES</h1>
+					<h1 class="traco_missoes">________________________________________</h1>
+					<p class="missoes_texto">VISÃO</p>
+					<p >Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
+					<h1 class="traco_missoes">_________________________________________</h1>
+					<p class="missoes_texto">VALORES</p>
 					<p>Lorem ipsum dolor sit amet<br>consectetur adipiscing elit<br>consectetur adipiscing elit</p>
 				</div>
 			</div>	

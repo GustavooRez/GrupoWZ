@@ -19,7 +19,6 @@ License URI:byronsolutions.com
 .footer-copyright {
     text-align: center;
     bottom: 0;
-    position: absolute;
 }
 
 .footer-copyright  p {
@@ -53,10 +52,9 @@ License URI:byronsolutions.com
 .page-footer {
   padding-top: 20px;
   color: #fff;
-  background-color: #0A73B6;
+  background-color: #0A73B6!important;
   width: 100%;
-  position: fixed;
-  position: absolute;
+  position: relative;
 }
 
 .footer{
@@ -225,7 +223,8 @@ License URI:byronsolutions.com
     text-align: center;
     color: #024896;
     font-family: 'Dosis', sans-serif; 
-    padding-bottom: 2%;   
+    padding-bottom: 2%;  
+    font-size: 30px; 
 }
 
 /* OVERLAY SERVIÇOS */ 
@@ -322,6 +321,12 @@ License URI:byronsolutions.com
     font-family: 'Dosis', sans-serif; 
 }
 
+.missoes_texto{
+    font-size: 40px;
+    margin-bottom: 1%;
+    margin-top: 2%
+}
+
 .fundo_missoes{
     width: 100%;
     z-index: 1;
@@ -362,8 +367,8 @@ License URI:byronsolutions.com
 
 .traco_missoes{
     color:#0A73B6; 
-    margin-top: 1%;
-    margin-bottom:1%;
+    margin-top: -3%;
+    margin-bottom: -2%;
 }
 
 
