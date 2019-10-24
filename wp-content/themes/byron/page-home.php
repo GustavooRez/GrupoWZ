@@ -30,21 +30,7 @@
 
 </section>
 
-<section>
-	
-	<div class="missoes">
-		<img class="fundo_missoes" src="<?php echo get_template_directory_uri(); ?>/img/fundo_missoes.png">
-			<div class="texto_missoes">
-				<h1>MISSÃO</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				<h1>VISÃO</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				<h1>VALORES</h1>
-				<p>Lorem ipsum dolor sit amet<br>consectetur adipiscing elit<br>consectetur adipiscing elit</p>
-			</div>
-	</div>
 
-</section>
 
 <section>
 	
@@ -62,6 +48,25 @@
 	</div>
 </section>
 
+<section>
+	
+	<div class="missoes">
+		<img class="fundo_missoes" src="<?php echo get_template_directory_uri(); ?>/img/fundo_missoes.png">
+			<div> <p class="ideologia_titulo">Ideologia Empresarial</p><h1 class="ideologia_traco">________________________________________</h1>
+				<div class="texto_missoes">
+					<h1>MISSÃO</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
+					<h1 class="traco_missoes">____________________________________________________________________________</h1>
+					<h1>VISÃO</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
+					<h1 class="traco_missoes">___________________________________________________________________________________</h1>
+					<h1>VALORES</h1>
+					<p>Lorem ipsum dolor sit amet<br>consectetur adipiscing elit<br>consectetur adipiscing elit</p>
+				</div>
+			</div>	
+	</div>
+
+</section>
 
 
 <?php get_footer(); ?>
