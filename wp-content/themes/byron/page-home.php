@@ -49,7 +49,6 @@
 </section>
 
 <section>
-	
 	<div class="missoes">
 		<img class="fundo_missoes" src="<?php echo get_template_directory_uri(); ?>/img/fundo_missoes.png">
 			<div> <p class="ideologia_titulo">Ideologia Empresarial</p><h1 class="ideologia_traco">________________________________________</h1>
@@ -65,7 +64,26 @@
 				</div>
 			</div>	
 	</div>
+</section>
 
+<section>
+	<div class="clientes">
+		<h1 class="clientes_titulo">CLIENTES</h1>
+		<h1 class="traco_clientes">___________</h1>
+			<div class="clientes_grid6">
+				<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente1.png"></div>
+				<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente2.png"></div>
+				<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente3.png"></div>
+				<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente4.png"></div>
+				<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente5.png"></div>
+				<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente6.png"></div>				
+			</div>
+			<div class="clientes_grid3">
+				<div><img class="cliente_logo1" src="<?php echo get_template_directory_uri(); ?>/img/cliente7.png"></div>
+				<div><img class="cliente_logo2" src="<?php echo get_template_directory_uri(); ?>/img/cliente8.png"></div>
+				<div><img class="cliente_logo3" src="<?php echo get_template_directory_uri(); ?>/img/cliente9.png"></div>				
+			</div>
+	</div>
 </section>
 
 

@@ -19,6 +19,7 @@ License URI:byronsolutions.com
 .footer-copyright {
     text-align: center;
     bottom: 0;
+    position: absolute;
 }
 
 .footer-copyright  p {
@@ -356,11 +357,55 @@ License URI:byronsolutions.com
     position: relative;
     font-size: 20px;
     color: white;
-    margin-top: -3%;
+    margin-top: -4%;
 }
 
 .traco_missoes{
     color:#0A73B6; 
     margin-top: 1%;
     margin-bottom:1%;
+}
+
+
+/* CONTATO */
+.clientes{
+    padding-bottom: 3%;
+}
+
+.clientes_grid6{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.clientes_grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.clientes_titulo{
+        margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 73%;
+    font-size: 70px;
+    color:#0A73B6;
+    font-family: 'Dosis', sans-serif;
+}
+
+.traco_clientes{
+    margin-top: -5%;
+    margin-bottom: 1%;
+    padding-left: 71%;
+    font-size: 60px;
+    color:#0A73B6;
+    }
+
+.cliente_logo1{
+padding-left: 47%;
+}
+.cliente_logo2{
+padding-left: 27%;
+}
+.cliente_logo3{
+padding-left: 0%;
+    
 }
