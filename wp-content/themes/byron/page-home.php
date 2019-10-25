@@ -51,18 +51,18 @@
 <section>
 	<div class="missoes">
 		<img class="fundo_missoes" src="<?php echo get_template_directory_uri(); ?>/img/fundo_missoes.png">
-			<div> <p class="ideologia_titulo">Ideologia Empresarial</p><h1 class="ideologia_traco">________________________________________</h1>
-				<div class="texto_missoes">
-					<p class="missoes_texto">MISSÃO</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
-					<h1 class="traco_missoes">________________________________________</h1>
-					<p class="missoes_texto">VISÃO</p>
-					<p >Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
-					<h1 class="traco_missoes">_________________________________________</h1>
-					<p class="missoes_texto">VALORES</p>
-					<p>Lorem ipsum dolor sit amet<br>consectetur adipiscing elit<br>consectetur adipiscing elit</p>
-				</div>
-			</div>	
+		<div> <p class="ideologia_titulo">Ideologia Empresarial</p><p class="ideologia_traco">_______________________</p>
+			<div class="texto_missoes">
+				<p class="missoes_texto">MISSÃO</p>
+				<p class="missoes_frases">Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
+				<h1 class="traco_missoes">________________________________________</h1>
+				<p class="missoes_texto">VISÃO</p>
+				<p class="missoes_frases">Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
+				<h1 class="traco_missoes">_________________________________________</h1>
+				<p class="missoes_texto">VALORES</p>
+				<p class="missoes_frases">Lorem ipsum dolor sit amet<br>consectetur adipiscing elit<br>consectetur adipiscing elit</p>
+			</div>
+		</div>	
 	</div>
 </section>
 
@@ -70,19 +70,20 @@
 	<div class="clientes">
 		<h1 class="clientes_titulo">CLIENTES</h1>
 		<h1 class="traco_clientes">___________</h1>
-			<div class="clientes_grid6">
-				<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente1.png"></div>
-				<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente2.png"></div>
-				<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente3.png"></div>
-				<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente4.png"></div>
-				<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente5.png"></div>
-				<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente6.png"></div>				
-			</div>
-			<div class="clientes_grid3">
-				<div><img class="cliente_logo1" src="<?php echo get_template_directory_uri(); ?>/img/cliente7.png"></div>
-				<div><img class="cliente_logo2" src="<?php echo get_template_directory_uri(); ?>/img/cliente8.png"></div>
-				<div><img class="cliente_logo3" src="<?php echo get_template_directory_uri(); ?>/img/cliente9.png"></div>				
-			</div>
+		<div class="clientes_grid6">
+			<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente1.png"></div>
+			<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente2.png"></div>
+			<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente3.png"></div>
+			<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente4.png"></div>
+			<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente5.png"></div>
+			<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente_6.png"></div>
+
+		</div>
+		<div class="clientes_grid3">
+			<div><img class="cliente_logo1" src="<?php echo get_template_directory_uri(); ?>/img/cliente7.png"></div>
+			<div><img class="cliente_logo2" src="<?php echo get_template_directory_uri(); ?>/img/cliente8.png"></div>
+			<div><img class="cliente_logo3" src="<?php echo get_template_directory_uri(); ?>/img/cliente9.png"></div>				
+		</div>
 	</div>
 </section>
 

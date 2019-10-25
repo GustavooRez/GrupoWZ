@@ -136,7 +136,7 @@ License URI:byronsolutions.com
 .titulo_servicos{
     text-align: center;
     font-family: 'Dosis', sans-serif; 
-    font-size: 35px;
+    font-size: 47px;
     margin-top: 3%;
     margin-bottom: 4%;
     color: #0A73B6;
@@ -337,9 +337,13 @@ License URI:byronsolutions.com
 }
 
 .missoes_texto{
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 1%;
     margin-top: 2%
+}
+
+.missoes_frases{
+    font-size: 18px;
 }
 
 .fundo_missoes{
@@ -377,7 +381,7 @@ License URI:byronsolutions.com
     position: relative;
     font-size: 20px;
     color: white;
-    margin-top: -4%;
+    margin-top: -6%;
 }
 
 .traco_missoes{
@@ -418,7 +422,9 @@ License URI:byronsolutions.com
     font-size: 60px;
     color:#0A73B6;
     }
-
+.cliente_logo0{
+    width: 20%;
+}
 .cliente_logo1{
 padding-left: 47%;
 }
@@ -427,5 +433,4 @@ padding-left: 27%;
 }
 .cliente_logo3{
 padding-left: 0%;
-    
 }

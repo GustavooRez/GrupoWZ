@@ -1,5 +1,10 @@
 <?php get_header(); ?>
 
+  <div class="parallax-container">
+    <div class="parallax"><img src="<?php echo get_template_directory_uri()?>/img/empresa.png"></div>
+  </div>
+
+
 <section>
 	<h3 class="titulo_servicos">NOSSOS SERVIÇOS ESTÃO PRESENTES EM 11 ESTADOS BRASILEIROS E CONTINUAMOS A EXPANSÃO</h3>
 

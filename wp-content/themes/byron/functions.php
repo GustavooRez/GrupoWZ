@@ -34,6 +34,7 @@ function byron_styles()
 
 	// Inserir: outros arquivos javascript se necesśario
 
+
 	wp_register_script('script', get_template_directory_uri() . "/assets/js/script.js", array('jquery'), false, true);
 	wp_register_script('materializejs', get_template_directory_uri() . "/js/materialize.min.js", array(), false, true);
 	wp_register_script('slick_js', get_template_directory_uri() . '/assets/js/slick.min.js', array(), false, true);
