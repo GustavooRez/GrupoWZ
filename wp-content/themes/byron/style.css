@@ -14,6 +14,20 @@ License URI:byronsolutions.com
     src: url(fonts/hillgates-webfont.woff);
 }
 
+.brand-logo{
+    padding-top: 0.5%!important;
+    width: 22%;
+    padding-left: 1%!important;
+}
+
+.nb{
+    padding: 0 30px!important;
+    color: #0A73B6;
+}
+
+.nav-wrapper{
+    background-color: white!important;
+}
 
 
 .footer-copyright {
@@ -142,7 +156,7 @@ License URI:byronsolutions.com
 
 .imagem_topografia{
     padding-left: 35%;
-    width: 35%;
+    width: 60%;
     padding-top: 2%;
 }
 
@@ -155,7 +169,7 @@ License URI:byronsolutions.com
 
 .imagem_tecnologia{
     padding-left: 30%;
-    width: 35%;
+    width: 60%;
     padding-top: 2%;
 }
 
@@ -168,7 +182,7 @@ License URI:byronsolutions.com
 
 .imagem_imobiliaria{
     padding-left: 33%;
-    width: 35%;
+    width: 60%;
     padding-top: 4%;
 }
 
@@ -317,7 +331,8 @@ License URI:byronsolutions.com
 
 /* MISSOES */ 
 .missoes{
-    padding-bottom: 7%;
+    padding-bottom: 4%;
+    padding-top: 1%;
     font-family: 'Dosis', sans-serif; 
 }
 
