@@ -60,7 +60,7 @@ define( 'LOGGED_IN_SALT',   '9=!C sCxc[jfqyP/ZNP+1A@p;XsVi/eOrK5Z: iJ-5R6@8H*OkI
 define( 'NONCE_SALT',       'rM:xt7Lfm-E$]qN=[<[Ntk3e9I11M$ts+}Lx;Wy@qjf-&xfI!A0ob$FJ.z:X<Vhd' );
 
 /**#@-*/
-
+set_time_limit (300);
 /**
  * Prefixo da tabela do banco de dados do WordPress.
  *
