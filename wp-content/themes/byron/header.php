@@ -48,4 +48,13 @@ if (class_exists('Redux')) {
             </ul>
         </div>
     </nav>
+
+                <ul class="sidenav" id="mobile-demo">
+                    <li><a class="sidenav-close nb"><p>HOME</p></a></li>                   
+                    <li><a class="sidenav-close nb"><p>SERVIÇOS</p></a></li>
+                    <li><a class="sidenav-close nb"><p>A EMPRESA</p></a></li>
+                    <li><a class="sidenav-close nb"><p>CLIENTES</p></a></li>
+                    <li><a class="sidenav-close nb"><p>CONTATO</p></a></li>
+                    <li><a class="sidenav-close nb"><p>BLOG</p></a></li>
+            </ul>
 </header>

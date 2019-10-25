@@ -5,7 +5,7 @@
 <footer class="page-footer">
 			<div class="footer">
 				<div class="esquerda_footer">
-					<div class="fale-conosco"><u>Fale conos</u>co</div>
+					<div class="fale-conosco"><u>Fale conosco</u></div>
 					<div class="padfoter"><p class="contato_footer"><i class="fas fa-phone"></i>(19) 3569-5100</p></div>			
 					<div class="padfoter"><p class="contato_footer"><i class="fas fa-envelope-square"></i>contato@grupowz.com</p></div>			
 					<div class="padfoter"><p class="contato_footer"><i class="fab fa-facebook"></i>Av. Pres. John F. Kennedy,42<br>Jd. Centenário, Mogi Guaçu - SP</p></div>

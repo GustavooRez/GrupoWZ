@@ -60,6 +60,14 @@ License URI:byronsolutions.com
     background-color: #024896;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 425px){
+    .footer-copyright a img {
+        width: 85%;
+    }
+
+}
+
+
 
 /* FOOTER */
 
@@ -119,6 +127,63 @@ License URI:byronsolutions.com
     padding-left: 3.5%;
     font-size: 30px!important;
 }
+
+@media only screen and (max-width: 320px){
+    .logo_footer{
+        padding-top: 5%;
+        padding-left: 32%!important;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+
+    .footer{
+        grid-template-columns:1fr;
+    }
+
+    .esquerda_footer{
+        padding-left: 0%;
+    }
+
+    .direita_footer{
+        padding-left: 0%;
+    }
+
+    .fale-conosco{
+        text-align: center;
+        font-size: 32px;
+        padding-top: 1%;
+    }
+
+    .contato_footer{
+        text-align: center;
+        font-size: 17px;
+        padding-top: 1%;
+    }
+
+    .logo_footer{
+        padding-top: 5%;
+        padding-left: 35%;
+    }
+
+    .icon{
+        padding-top: 8%;
+        padding-left: 20%;
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (min-width 426px) and (max-width 768px){
+
+
+}
+
+
+
+
+
+
 
 
 /* PAGINA SERVIÇOS */ 
@@ -210,6 +275,48 @@ License URI:byronsolutions.com
     padding-right: 1%;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 425px){
+    .grid_servicos{
+        grid-template-columns: 1fr; 
+    }
+
+    .titulo_servicos{
+        font-size: 35px;
+    }
+
+    .servicos_texto1{
+        font-size: 1.2rem;
+    }
+
+    .imagem_topografia {
+        padding-left: 28%;
+        width: 75%;
+    }
+
+    .servicos_texto2{
+        font-size: 1.2rem;
+    }
+
+    .imagem_tecnologia {
+        padding-left: 28%;
+        width: 75%;
+    }
+
+    .servicos_texto3{
+        font-size: 1.2rem;
+        padding-left: 19%;
+        padding-top: 2%;
+    }
+
+    .imagem_imobiliaria {
+        padding-left: 28%;
+        width: 75%;
+    }
+}
+
+
+
+
 
 /* PAGINA PRINCIPAL SERVIÇOS*/ 
 
@@ -293,6 +400,15 @@ License URI:byronsolutions.com
     text-align: center;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 425px){
+
+.grid_servicos_principal{
+    grid-template-columns: 1fr;
+}
+
+}
+
+
 
 /* EMPRESAS */
 
@@ -327,6 +443,25 @@ License URI:byronsolutions.com
 .empresa_descricao{
     padding-top: 1%;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+    .grid_empresa{
+        grid-template-columns: 1fr;
+    }
+
+    .imagem_empresa{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.empresa_titulo{
+text-align: center;
+padding-left: 0%;
+    }
+
+}
+
 
 
 /* MISSOES */ 
@@ -407,7 +542,7 @@ License URI:byronsolutions.com
 }
 
 .clientes_titulo{
-        margin-top: 1%;
+    margin-top: 1%;
     margin-bottom: 1%;
     padding-left: 73%;
     font-size: 70px;
@@ -421,16 +556,16 @@ License URI:byronsolutions.com
     padding-left: 71%;
     font-size: 60px;
     color:#0A73B6;
-    }
+}
 .cliente_logo0{
     width: 20%;
 }
 .cliente_logo1{
-padding-left: 47%;
+    padding-left: 47%;
 }
 .cliente_logo2{
-padding-left: 27%;
+    padding-left: 27%;
 }
 .cliente_logo3{
-padding-left: 0%;
+    padding-left: 0%;
 }
