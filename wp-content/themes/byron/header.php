@@ -25,6 +25,10 @@ if (class_exists('Redux')) {
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ruluko&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css" rel="stylesheet" type="text/css">
+    
+
 
     <!-- Apple Web App Meta -->
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -33,19 +37,21 @@ if (class_exists('Redux')) {
     <?php wp_head();?>
 
 </head>
-<body>
-    <header>
-        <nav>
-            <div class="nav-wrapper">
-                <img href="#" class="brand-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_grupo_wz.png"></img>
-              <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a class="nb">HOME</a></li>
-                <li><a class="nb">SERVIÇOS</a></li>
-                <li><a class="nb">A EMPRESA</a></li>
-                <li><a class="nb">CLIENTES</a></li>
-                <li><a class="nb">CONTATO</a></li>
-                <li><a class="nb">BLOG</a></li>
-            </ul>
+    <body>
+        <header>
+            <div class="navbar-fixed navbar">
+                <nav>
+                    <div class="nav-wrapper">
+                        <img href="#" class="brand-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_grupo_wz.png"></img>
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li><a class="nb">HOME</a></li>
+                            <li><a class="nb">SERVIÇOS</a></li>
+                            <li><a class="nb">A EMPRESA</a></li>
+                            <li><a class="nb">CLIENTES</a></li>
+                            <li><a class="nb">CONTATO</a></li>
+                            <li><a class="nb">BLOG</a></li>
+                        </ul>
+                    </div>
+            </nav>
         </div>
-    </nav>
-</header>
+        </header>

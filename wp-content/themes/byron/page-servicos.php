@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
   <div class="parallax-container">
-    <div class="parallax"><img src="<?php echo get_template_directory_uri()?>/img/empresa.png"></div>
+    <div class="parallax" ><img src="<?php echo get_template_directory_uri()?>/img/empresa.png" style="transform: translate3d(-50%, 346px, 0px); opacity: 1;"></div>
   </div>
 
 

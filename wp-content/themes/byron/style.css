@@ -25,8 +25,13 @@ License URI:byronsolutions.com
     color: #0A73B6;
 }
 
+nav{
+    background-color: transparent!important;
+}
+
 .nav-wrapper{
-    background-color: white!important;
+    transition: 0.3s;
+
 }
 
 
@@ -59,6 +64,14 @@ License URI:byronsolutions.com
     align-items: center;
     background-color: #024896;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+    .footer-copyright a img {
+        width: 85%;
+    }
+
+}
+
 
 
 /* FOOTER */
@@ -120,6 +133,63 @@ License URI:byronsolutions.com
     font-size: 30px!important;
 }
 
+@media only screen and (max-width: 320px){
+    .logo_footer{
+        padding-top: 5%;
+        padding-left: 32%!important;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+
+    .footer{
+        grid-template-columns:1fr;
+    }
+
+    .esquerda_footer{
+        padding-left: 0%;
+    }
+
+    .direita_footer{
+        padding-left: 0%;
+    }
+
+    .fale-conosco{
+        text-align: center;
+        font-size: 32px;
+        padding-top: 1%;
+    }
+
+    .contato_footer{
+        text-align: center;
+        font-size: 17px;
+        padding-top: 1%;
+    }
+
+    .logo_footer{
+        padding-top: 5%;
+        padding-left: 35%;
+    }
+
+    .icon{
+        padding-top: 8%;
+        padding-left: 20%;
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (min-width 426px) and (max-width 768px){
+
+
+}
+
+
+
+
+
+
+
 
 /* PAGINA SERVIÇOS */ 
 .grid_servicos{
@@ -131,6 +201,7 @@ License URI:byronsolutions.com
 }
 .imagem_servicos{
     width: 100%;
+    border-radius: 20px;
 }
 
 .titulo_servicos{
@@ -209,6 +280,48 @@ License URI:byronsolutions.com
     font-family: 'Dosis', sans-serif; 
     padding-right: 1%;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+    .grid_servicos{
+        grid-template-columns: 1fr; 
+    }
+
+    .titulo_servicos{
+        font-size: 35px;
+    }
+
+    .servicos_texto1{
+        font-size: 1.2rem;
+    }
+
+    .imagem_topografia {
+        padding-left: 28%;
+        width: 75%;
+    }
+
+    .servicos_texto2{
+        font-size: 1.2rem;
+    }
+
+    .imagem_tecnologia {
+        padding-left: 28%;
+        width: 75%;
+    }
+
+    .servicos_texto3{
+        font-size: 1.2rem;
+        padding-left: 19%;
+        padding-top: 2%;
+    }
+
+    .imagem_imobiliaria {
+        padding-left: 28%;
+        width: 75%;
+    }
+}
+
+
+
 
 
 /* PAGINA PRINCIPAL SERVIÇOS*/ 
@@ -293,6 +406,32 @@ License URI:byronsolutions.com
     text-align: center;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 425px){
+
+.grid_servicos_principal{
+    grid-template-columns: 1fr;
+}
+
+.overlay_servicos {
+  padding-top: 64%;
+  bottom: 3%;
+  width: 100%;
+    }
+.grid_servicos_principal{
+    padding-right: 5%;
+}
+
+.imagens_servicos{
+    width: 100%;
+    padding-bottom: 1%;
+}
+.descricao_servicos_principal{
+    margin-top: 1%;
+}
+
+}
+
+
 
 /* EMPRESAS */
 
@@ -327,6 +466,25 @@ License URI:byronsolutions.com
 .empresa_descricao{
     padding-top: 1%;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+    .grid_empresa{
+        grid-template-columns: 1fr;
+    }
+
+    .imagem_empresa{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.empresa_titulo{
+text-align: center;
+padding-left: 0%;
+    }
+
+}
+
 
 
 /* MISSOES */ 
@@ -390,6 +548,37 @@ License URI:byronsolutions.com
     margin-bottom: -2%;
 }
 
+@media only screen and (max-width: 320px){
+.ideologia_titulo{
+    margin-top: 1%;
+}
+
+.traco_missoes{
+    font-size: 20px;
+}
+ }   
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+
+.ideologia_titulo{
+    padding-left: 0%;
+}
+
+.ideologia_traco{
+    padding-left: 0%;
+    margin-top: -8%;
+}
+.texto_missoes{
+    color: black;
+    margin-top: 16%;
+}
+
+.traco_missoes{
+    font-size: 28px;
+}
+
+}
+
 
 /* CONTATO */
 .clientes{
@@ -407,7 +596,7 @@ License URI:byronsolutions.com
 }
 
 .clientes_titulo{
-        margin-top: 1%;
+    margin-top: 1%;
     margin-bottom: 1%;
     padding-left: 73%;
     font-size: 70px;
@@ -421,16 +610,84 @@ License URI:byronsolutions.com
     padding-left: 71%;
     font-size: 60px;
     color:#0A73B6;
-    }
+}
 .cliente_logo0{
     width: 20%;
 }
 .cliente_logo1{
-padding-left: 47%;
+    padding-left: 47%;
 }
 .cliente_logo2{
-padding-left: 27%;
+    padding-left: 27%;
 }
 .cliente_logo3{
-padding-left: 0%;
+    padding-left: 0%;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+.clientes_grid6{
+    grid-template-columns: 1fr 1fr;
+}
+
+.clientes_titulo {
+    font-size: 36px;
+    padding-left: 0%;
+    text-align: center;
+    }
+ .cliente_logo1{
+    padding-left: 0%;
+        width: 90%;
+}
+.cliente_logo2{
+    padding-left: 0%;
+    width: 80%;
+}
+.cliente_logo3{
+    padding-left: 0%;
+        width: 100%;
+}
+
+.traco_clientes{
+    padding-left: 0%;
+    text-align: center;
+    font-size: 40px;
+}
+.cliente_logo{
+    width: 91%;
+}
+
+.clientes{
+    padding-top: 2%;
+}
+}
+
+
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+background-image: linear-gradient(to top,rgba(14,14,14,0.5) 1%,rgba(14,14,14,0.1) 10%);
+}
+
+.parallax-container .parallax {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.parallax-container .parallax img {
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
