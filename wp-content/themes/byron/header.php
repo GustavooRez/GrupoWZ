@@ -35,7 +35,7 @@ if (class_exists('Redux')) {
 </head>
 <body>
     <header>
-          <div class="navbar-fixed">
+          <div class="navbar-fixed navbar">
             <nav>
                 <div class="nav-wrapper">
                     <img href="#" class="brand-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_grupo_wz.png"></img>
@@ -51,5 +51,3 @@ if (class_exists('Redux')) {
         </nav>
     </div>
     </header>
-
-    

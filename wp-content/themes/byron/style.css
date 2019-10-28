@@ -25,8 +25,13 @@ License URI:byronsolutions.com
     color: #0A73B6;
 }
 
+nav{
+    background-color: transparent!important;
+}
+
 .nav-wrapper{
-    background-color: white!important;
+    transition: 0.3s;
+
 }
 
 
@@ -661,7 +666,8 @@ padding-left: 0%;
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 500px;
+  height: 100vh;
+background-image: linear-gradient(to top,rgba(14,14,14,0.5) 1%,rgba(14,14,14,0.1) 10%);
 }
 
 .parallax-container .parallax {
@@ -687,33 +693,3 @@ padding-left: 0%;
 }
 
 
-#nav {
-  height: 70px;
-  background: black;
-  display: block;
-  position: fixed;
-  width: 100%;
-  z-index: 99999;
-  transition: all ease .5s;
-}
-
-#logo {
-  color: #fff;
-  padding: 20px;
-  font-size: 18px;
-  transition: all ease .5s;
-}
-
-#hero {
-  height: 500px;
-  width: 100%;
-  background: url('http://community.lovenature.com/wp-content/uploads/sites/4/2016/08/jimi-hendrix.jpg');
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-#nav.change {
-  background: red;
-  transition: all ease .5s;
-}
