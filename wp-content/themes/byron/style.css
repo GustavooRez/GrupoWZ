@@ -9,6 +9,7 @@ License URI:byronsolutions.com
 
 /* DESENVOLVIDO POR BYRON SOLUTIONS*/ 
 
+
 @font-face {
     font-family: Hillgates;
     src: url(fonts/hillgates-webfont.woff);
@@ -452,7 +453,7 @@ License URI:byronsolutions.com
     font-family: 'Dosis', sans-serif;  
     padding-top: 3%;
     padding-bottom:0%;  
-    margin-top: 25%; 
+    margin-top:0%; 
 }
 .empresa_texto{
     padding-left: 13%;
@@ -712,20 +713,20 @@ License URI:byronsolutions.com
 
 .bases{
     width: 100%;
-    z-index: 1;
-    position: absolute;
+    z-index: 1;;
 }
 
 .bases_titulo{
     text-align: center;
     z-index: 2;
     position: relative;
-    padding-left: 73%;
+    padding-left: 50%;
     padding-top: 10%;
     font-size: 50px;
     color: white;
     margin-bottom: 0%;
     font-family: 'Dosis', sans-serif; 
+    margin-top: -145%;
 }
 
 #svg-map path { fill:#0094d9 }
@@ -738,4 +739,24 @@ License URI:byronsolutions.com
 
 .mapa{
     z-index: 2;
+    padding-left: 25%;
+    position: relative;
+    margin-top: -110%;
+}
+
+.grid_mapa{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bases_traco{
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    padding-left: 50%;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0%;
+    margin-top: -2%;
+    font-family: 'Dosis', sans-serif; 
 }
