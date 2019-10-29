@@ -55,4 +55,5 @@ if (class_exists('Redux')) {
                 </div>
             </nav>
         </div>
-   </header>
+
+    </header>

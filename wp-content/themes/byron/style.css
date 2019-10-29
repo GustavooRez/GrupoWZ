@@ -419,16 +419,16 @@ License URI:byronsolutions.com
 
 @media only screen and (min-width: 320px) and (max-width: 425px){
 
-.grid_servicos_principal{
-    grid-template-columns: 1fr;
-}
-
-.overlay_servicos {
-  padding-top: 64%;
-  bottom: 3%;
-  width: 100%;
+    .grid_servicos_principal{
+        grid-template-columns: 1fr;
     }
-.grid_servicos_principal{
+
+    .overlay_servicos {
+      padding-top: 64%;
+      bottom: 3%;
+      width: 100%;
+  }
+  .grid_servicos_principal{
     padding-right: 5%;
 }
 
@@ -451,8 +451,8 @@ License URI:byronsolutions.com
     grid-template-columns: 1fr 1fr;
     font-family: 'Dosis', sans-serif;  
     padding-top: 3%;
-    padding-bottom:2%;  
-    margin-top: 1%; 
+    padding-bottom:0%;  
+    margin-top: 25%; 
 }
 .empresa_texto{
     padding-left: 13%;
@@ -486,14 +486,14 @@ License URI:byronsolutions.com
     }
 
     .imagem_empresa{
-    width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
-}
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 
-.empresa_titulo{
-text-align: center;
-padding-left: 0%;
+    .empresa_titulo{
+        text-align: center;
+        padding-left: 0%;
     }
 
 }
@@ -503,7 +503,7 @@ padding-left: 0%;
 /* MISSOES */ 
 .missoes{
     padding-bottom: 4%;
-    padding-top: 1%;
+    padding-top: 0%;
     font-family: 'Dosis', sans-serif; 
 }
 
@@ -562,33 +562,33 @@ padding-left: 0%;
 }
 
 @media only screen and (max-width: 320px){
-.ideologia_titulo{
-    margin-top: 1%;
-}
+    .ideologia_titulo{
+        margin-top: 1%;
+    }
 
-.traco_missoes{
-    font-size: 20px;
-}
- }   
+    .traco_missoes{
+        font-size: 20px;
+    }
+}   
 
 @media only screen and (min-width: 320px) and (max-width: 425px){
 
-.ideologia_titulo{
-    padding-left: 0%;
-}
+    .ideologia_titulo{
+        padding-left: 0%;
+    }
 
-.ideologia_traco{
-    padding-left: 0%;
-    margin-top: -8%;
-}
-.texto_missoes{
-    color: black;
-    margin-top: 16%;
-}
+    .ideologia_traco{
+        padding-left: 0%;
+        margin-top: -8%;
+    }
+    .texto_missoes{
+        color: black;
+        margin-top: 16%;
+    }
 
-.traco_missoes{
-    font-size: 28px;
-}
+    .traco_missoes{
+        font-size: 28px;
+    }
 
 }
 
@@ -639,40 +639,40 @@ padding-left: 0%;
 
 
 @media only screen and (min-width: 320px) and (max-width: 425px){
-.clientes_grid6{
-    grid-template-columns: 1fr 1fr;
-}
-
-.clientes_titulo {
-    font-size: 36px;
-    padding-left: 0%;
-    text-align: center;
+    .clientes_grid6{
+        grid-template-columns: 1fr 1fr;
     }
- .cliente_logo1{
-    padding-left: 0%;
+
+    .clientes_titulo {
+        font-size: 36px;
+        padding-left: 0%;
+        text-align: center;
+    }
+    .cliente_logo1{
+        padding-left: 0%;
         width: 90%;
-}
-.cliente_logo2{
-    padding-left: 0%;
-    width: 80%;
-}
-.cliente_logo3{
-    padding-left: 0%;
+    }
+    .cliente_logo2{
+        padding-left: 0%;
+        width: 80%;
+    }
+    .cliente_logo3{
+        padding-left: 0%;
         width: 100%;
-}
+    }
 
-.traco_clientes{
-    padding-left: 0%;
-    text-align: center;
-    font-size: 40px;
-}
-.cliente_logo{
-    width: 91%;
-}
+    .traco_clientes{
+        padding-left: 0%;
+        text-align: center;
+        font-size: 40px;
+    }
+    .cliente_logo{
+        width: 91%;
+    }
 
-.clientes{
-    padding-top: 2%;
-}
+    .clientes{
+        padding-top: 2%;
+    }
 }
 
 
@@ -680,7 +680,7 @@ padding-left: 0%;
   position: absolute;
   overflow: hidden;
   height: 100vh;
-background-image: linear-gradient(to top,rgba(14,14,14,0.5) 1%,rgba(14,14,14,0.1) 10%);
+  background-image: linear-gradient(to top,rgba(14,14,14,0.5) 1%,rgba(14,14,14,0.1) 10%);
 
 }
 
@@ -701,7 +701,41 @@ background-image: linear-gradient(to top,rgba(14,14,14,0.5) 1%,rgba(14,14,14,0.1
   min-width: 100%;
   min-height: 100%;
   -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+
+
+/* BASES*/ 
+
+.bases{
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+.bases_titulo{
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    padding-left: 73%;
+    padding-top: 10%;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 0%;
+    font-family: 'Dosis', sans-serif; 
+}
+
+#svg-map path { fill:#0094d9 }
+#svg-map text { fill:#fff; font:12px Arial-BoldMT, sans-serif; cursor:pointer }
+#svg-map a{ text-decoration:none }
+#svg-map a:hover { cursor:pointer; text-decoration:none }
+#svg-map a:hover path{ fill:#003399 !important }
+#svg-map .circle { fill:#66ccff }
+#svg-map a:hover .circle { fill:#003399 !important; cursor:pointer }
+
+.mapa{
+    z-index: 2;
 }
