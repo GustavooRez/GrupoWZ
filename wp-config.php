@@ -20,7 +20,7 @@
 
 // ** Configurações do MySQL - Você pode pegar estas informações com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
-define( 'DB_NAME', 'grupowz' );
+define( 'DB_NAME', 'wordpress' );
 
 /** Usuário do banco de dados MySQL */
 define( 'DB_USER', 'root' );
@@ -50,24 +50,24 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '%S0m2b++(UH32Uxxz4XENbG3b:t8T1g@[3htFYzTJOPg9t[+aM6LX}7W<MDQKe0!' );
-define( 'SECURE_AUTH_KEY',  'W`_7.t+#!O98a7;X2T&{ A@GFf#vB3wD$H9}<h2IJPe0lTm0/WaNk2+|f;5I[RQ<' );
-define( 'LOGGED_IN_KEY',    '<RN8)oB +tdyAc19-GTV$`ZRTm!;1BhzRr^!K1o/o8Saw3UhVN2o.B(6gW.-Bx1|' );
-define( 'NONCE_KEY',        'hOlAE];<5RUqov]TTF[*2OAArmoZKAD(x:L-p_I0>%d~@dd{uUx8yu@|w0jnA6DC' );
-define( 'AUTH_SALT',        '$TX;[5Glrk/NS1NuV|.utdavb!OL]p|-G0{GWCE?LB{Ru|<RZa}`( +Xx3RA^q&A' );
-define( 'SECURE_AUTH_SALT', 'MK;+N[PI$~c0<lg^Qbsn]~^2Lp5IuhO@kPh(bSMr,<D,-{rH>vH$0h0SU1xg7#]~' );
-define( 'LOGGED_IN_SALT',   '9=!C sCxc[jfqyP/ZNP+1A@p;XsVi/eOrK5Z: iJ-5R6@8H*OkIi`qtUzlM#5sZ]' );
-define( 'NONCE_SALT',       'rM:xt7Lfm-E$]qN=[<[Ntk3e9I11M$ts+}Lx;Wy@qjf-&xfI!A0ob$FJ.z:X<Vhd' );
+define( 'AUTH_KEY',         'WZh]g:wj:{eQ*BAAG[&5)Rs`|Vu}*Wzj345lmVKR!Bdvg/vdp^v7k>pw?c6;jF3l' );
+define( 'SECURE_AUTH_KEY',  'U&tnJk#PZWx)ddTD<=NT6)lJll(jqs%O;(^lgcl{(^DUTgcT+3x3]>XEe^^>8Mp_' );
+define( 'LOGGED_IN_KEY',    'I _r|n?%lw@y,J!P74dMh`?nPQjL4w&*Xm$]XU(<{wYLvF&jQ#%@/R9y6>]::GJ8' );
+define( 'NONCE_KEY',        '^8l)&tldVTAVre$twO/6:-xri JUDM4CTi AqxW?@Cj|[0qeDwXZ4qniw:FL_ mx' );
+define( 'AUTH_SALT',        'U(Hk7cX]tz&28h6A&?4%726x#,`-jc3FtJA]9M-`{`I2=|JU9.P<~F,^K$jzt>yy' );
+define( 'SECURE_AUTH_SALT', '0jYRdoiK3M=/D]2[jnz@GT.FOHRCnT*304v0L9q4}|)`3-T~ba$-G@y4%#^-/Jof' );
+define( 'LOGGED_IN_SALT',   'u6HG~wFBu*`I0rdCzmqjS9&1K8gsKqzP{|(n^B3,vmWx,iIGfmOq`7_,_mm>?YQh' );
+define( 'NONCE_SALT',       'HB2ybO8bJ,f,)Np:4(.r:xx_^,^V^JH:C2JQdUuY:4WFgU2bJ*qx(KHA M+66P}~' );
 
 /**#@-*/
-set_time_limit (300);
+
 /**
  * Prefixo da tabela do banco de dados do WordPress.
  *
  * Você pode ter várias instalações em um único banco de dados se você der
  * um prefixo único para cada um. Somente números, letras e sublinhados!
  */
-$table_prefix = 'wp_grupowz';
+$table_prefix = 'wp_';
 
 /**
  * Para desenvolvedores: Modo de debug do WordPress.
