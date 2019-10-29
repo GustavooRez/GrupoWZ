@@ -34,7 +34,7 @@ function byron_styles()
 
 	// Inserir: outros arquivos javascript se necesśario
 
-
+	wp_register_script('jquery', get_template_directory_uri() . "/js/jquery.js", array('jquery'), false, true);
 	wp_register_script('script', get_template_directory_uri() . "/assets/js/script.js", array('jquery'), false, true);
 	wp_register_script('materializejs', get_template_directory_uri() . "/js/materialize.min.js", array(), false, true);
 	wp_register_script('slick_js', get_template_directory_uri() . '/assets/js/slick.min.js', array(), false, true);
@@ -44,6 +44,7 @@ function byron_styles()
 	wp_register_script('googlemaps', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyB8ZUn_OtQQ2FD0UMenqq0ZtvBjBQm1jR0&callback=initMap', array(), '', true);
 
 
+	wp_enqueue_script('jquery');	
 	wp_enqueue_script('materializejs');
 	wp_enqueue_script('googlemaps');
 	wp_enqueue_script('script');
@@ -53,3 +54,24 @@ function byron_styles()
 	wp_enqueue_script('slick_js');
 }
 add_action('wp_enqueue_scripts', 'byron_styles');
+
+function create_post_type() {
+    register_post_type('banners',
+    // Definir as opções
+    array(
+        'labels' => array(
+            'name' => __('Banners'),
+            'singular_name' => __('Banners')
+        ),
+        'supports' => array(
+            'title', 'editor', 'thumbnail'
+        ),
+        'public' => true,
+        'has_archive' => true,
+		'menu_icon' => 'dashicons-images-alt',
+        'rewrite' => array('slug' => 'banners'),
+    ));
+}
+//Iniciar o tipo de post
+add_action('init', 'create_post_type');
+
