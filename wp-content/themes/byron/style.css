@@ -25,13 +25,23 @@ License URI:byronsolutions.com
     color: #0A73B6;
 }
 
-nav{
-    background-color: transparent!important;
+.nav-white{
+    background-color: white!important;
+    transition: 1s!important;
+}
+.nav-white li a{
+    padding: 0 30px!important;
+    color: #0A73B6;
 }
 
-.nav-wrapper{
-    transition: 0.3s;
+.nav-black{
+    background-color: black!important;
+    transition: 1s!important;
+}
 
+.nav-black li a{
+    padding: 0 30px!important;
+    color: white;
 }
 
 
@@ -352,6 +362,7 @@ nav{
     font-family: 'Dosis', sans-serif; 
     padding-bottom: 2%;  
     font-size: 30px; 
+    margin-bottom: 0;
 }
 
 /* OVERLAY SERVIÇOS */ 
@@ -440,7 +451,8 @@ nav{
     grid-template-columns: 1fr 1fr;
     font-family: 'Dosis', sans-serif;  
     padding-top: 3%;
-    padding-bottom:2%;   
+    padding-bottom:2%;  
+    margin-top: 1%; 
 }
 .empresa_texto{
     padding-left: 13%;
@@ -465,6 +477,7 @@ nav{
 
 .empresa_descricao{
     padding-top: 1%;
+    font-size: 17px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 425px){

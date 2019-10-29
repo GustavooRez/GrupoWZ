@@ -1,28 +1,31 @@
 <?php get_header(); ?>
 
-<div class="header">
-<div class="fade">
-  <div><img src="<?php echo get_template_directory_uri();?> /img/header1.png" alt="TOPOGRAFIA" width="100%"/></div>
-  <div><img src="<?php echo get_template_directory_uri();?> /img/header2.png" alt="IMOBILIARIA" width="100%"/></div>
-  <div><img src="<?php echo get_template_directory_uri();?> /img/header3.png" alt="TECNOLOGIA" width="100%"/></div>
-</div>
+<section id="home">
+	<div class="header">
+		<div class="fade">
+			<div><img src="<?php echo get_template_directory_uri();?> /img/header1.png" alt="TOPOGRAFIA" width="100%"/></div>
+			<div><img src="<?php echo get_template_directory_uri();?> /img/header2.png" alt="IMOBILIARIA" width="100%"/></div>
+			<div><img src="<?php echo get_template_directory_uri();?> /img/header3.png" alt="TECNOLOGIA" width="100%"/></div>
+		</div>
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
-<script type="text/javascript">
-	$('.fade').slick({
-		infinite: true,
-		speed: 500,
-		fade: true,
-		cssEase: 'linear',
-		autoplay: true,
-		autoplaySpeed: 2000,
-	});
-</script>
-</div>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+		<script type="text/javascript">
+			$('.fade').slick({
+				infinite: true,
+				speed: 500,
+				fade: true,
+				cssEase: 'linear',
+				autoplay: true,
+				autoplaySpeed: 2000,
+			});
+		</script>
+	</div>
+</section>
 
-<section>
+
+<section id="serviços">
 
 	<h1 class="titulo_servicos_principal"><u>SERVIÇOS</u></h1>	
 
@@ -50,7 +53,7 @@
 
 
 
-<section>
+<section id="empresa">
 	
 	<div class="grid_empresa">
 
@@ -66,7 +69,7 @@
 	</div>
 </section>
 
-<section>
+<section id="missoes">
 	<div class="missoes">
 		<img class="fundo_missoes" src="<?php echo get_template_directory_uri(); ?>/img/fundo_missoes.png">
 		<div> <p class="ideologia_titulo">Ideologia Empresarial</p><p class="ideologia_traco">_______________________</p>
@@ -84,7 +87,7 @@
 	</div>
 </section>
 
-<section>
+<section id="clientes">
 	<div class="clientes">
 		<h1 class="clientes_titulo">CLIENTES</h1>
 		<h1 class="traco_clientes">___________</h1>
