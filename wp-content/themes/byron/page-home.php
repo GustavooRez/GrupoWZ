@@ -27,7 +27,8 @@
 
 <section id="serviços">
 
-	<h1 class="titulo_servicos_principal"><u>SERVIÇOS</u></h1>	
+	<h1 class="titulo_servicos_principal">SERVIÇOS</h1>	
+		<h1 class="traco_servicos_principal">___________</h1>	
 
 	<div class="grid_servicos_principal">
 		<div class="container_servicos">
@@ -53,7 +54,7 @@
 
 <section id="bases">
 	<div>
-		<img class="bases" src="<?php echo get_template_directory_uri(); ?>/img/fundo_bases.png">	
+		<img class="bases" src="<?php echo get_template_directory_uri(); ?>/img/fundo_base.png">	
 		<div class="grid_mapa">
 			<div>
 				<div id="msg-toca" style="display:none">
