@@ -33,17 +33,17 @@
 	<div class="grid_servicos_principal">
 		<div class="container_servicos">
 			<img class="imagens_servicos" src="<?php echo get_template_directory_uri(); ?>/img/top.png">
-			<div class="overlay_servicos"><div><div class="texto_overlay">TOPOGRAFIA</div></div><div class="texto_overlay_baixo"><div>SAIBA MAIS</div></div></div>		
+			<div class="overlay_servicos"><div><div class="texto_overlay">TOPOGRAFIA</div></div><div class="texto_overlay_baixo"><div><a href="servicos">SAIBA MAIS</a></div></div></div>		
 		</div>
 
 		<div class="container_servicos">
 			<img class="imagens_servicos" src="<?php echo get_template_directory_uri(); ?>/img/tecnologia.png">	
-			<div class="overlay_servicos"><div><div class="texto_overlay">TECNOLOGIA</div></div><div class="texto_overlay_baixo"><div>SAIBA MAIS</div></div></div>	
+			<div class="overlay_servicos"><div><div class="texto_overlay">TECNOLOGIA</div></div><div class="texto_overlay_baixo"><div><a href="servicos">SAIBA MAIS</a></div></div></div>	
 		</div>
 
 		<div class="container_servicos">
 			<img class="imagens_servicos" src="<?php echo get_template_directory_uri(); ?>/img/imobiliaria.png">
-			<div class="overlay_servicos"><div><div class="texto_overlay">IMOBILIÁRIA</div></div><div class="texto_overlay_baixo"><div>SAIBA MAIS</div></div></div>				
+			<div class="overlay_servicos"><div><div class="texto_overlay">IMOBILIÁRIA</div></div><div class="texto_overlay_baixo"><div><a href="servicos">SAIBA MAIS</a></div></div></div>				
 		</div>
 
 	</div>

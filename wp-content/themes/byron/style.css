@@ -144,6 +144,8 @@ License URI:byronsolutions.com
     font-size: 30px!important;
 }
 
+
+
 @media only screen and (max-width: 320px){
     .logo_footer{
         padding-top: 5%;
@@ -507,6 +509,16 @@ License URI:byronsolutions.com
 
 }
 
+@media only screen and (min-width: 426px) and (max-width: 768px){
+
+.imagem_empresa{
+    width: 95%!important;
+    padding-left: 0%;
+    padding-top: 25%;
+}
+
+}
+
 
 
 /* MISSOES */ 
@@ -584,6 +596,7 @@ License URI:byronsolutions.com
 
     .ideologia_titulo{
         padding-left: 0%;
+        padding-top: 15%;
     }
 
     .ideologia_traco{
@@ -592,7 +605,7 @@ License URI:byronsolutions.com
     }
     .texto_missoes{
         color: black;
-        margin-top: 16%;
+        margin-top: 23%;
     }
 
     .traco_missoes{
@@ -600,6 +613,30 @@ License URI:byronsolutions.com
     }
 
 }
+@media only screen and (min-width: 426px) and (max-width: 768px){
+
+.ideologia_titulo{
+    font-size: 22px;
+}
+
+.ideologia_traco{
+    font-size: 20px;
+}
+.missoes_texto{
+    font-size:25px;
+}
+.traco_missoes{
+    font-size: 25px;
+}
+.missoes_frases{
+    font-size: 17px;
+    margin-top: -1%;
+}
+
+
+}
+
+
 
 
 /* CONTATO */
@@ -684,6 +721,23 @@ License URI:byronsolutions.com
     }
 }
 
+@media only screen and (min-width: 426px) and (max-width: 768px){
+.clientes_titulo{
+    font-size: 45px;
+}
+.traco_clientes{
+    font-size: 40px;
+}
+.clientes_grid6{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+    .cliente_logo1{
+        padding-left: 0%;
+    }
+
+}
+
+
 
 .parallax-container {
   position: absolute;
@@ -767,4 +821,23 @@ License URI:byronsolutions.com
     margin-bottom: 0%;
     margin-top: -2%;
     font-family: 'Dosis', sans-serif; 
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px){
+
+.bases_titulo{
+    font-size: 45px;
+    padding-top: 6%;
+}
+
+.bases_traco{
+    font-size: 18px;
+    margin-top: -4%;
+}
+
+svg:not(:root){
+    width: 100%;
+    margin-top: -35%;
+}
+
 }
