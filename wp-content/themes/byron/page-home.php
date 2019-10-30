@@ -424,12 +424,12 @@
 		<h1 class="clientes_titulo">CLIENTES</h1>
 		<h1 class="traco_clientes">___________</h1>
 		<div class="clientes_grid6">
-			<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente1.png"></div>
-			<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente2.png"></div>
-			<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente3.png"></div>
-			<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente4.png"></div>
-			<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente5.png"></div>
-			<div><img class="cliente_logo" src="<?php echo get_template_directory_uri(); ?>/img/cliente_6.png"></div>
+			<div><img class="cliente_logo9" src="<?php echo get_template_directory_uri(); ?>/img/cliente1.png"></div>
+			<div><img class="cliente_logo8" src="<?php echo get_template_directory_uri(); ?>/img/cliente2.png"></div>
+			<div><img class="cliente_logo7" src="<?php echo get_template_directory_uri(); ?>/img/cliente3.png"></div>
+			<div><img class="cliente_logo9" src="<?php echo get_template_directory_uri(); ?>/img/cliente4.png"></div>
+			<div><img class="cliente_logo8" src="<?php echo get_template_directory_uri(); ?>/img/cliente5.png"></div>
+			<div><img class="cliente_logo7" src="<?php echo get_template_directory_uri(); ?>/img/cliente_6.png"></div>
 
 		</div>
 		<div class="clientes_grid3">

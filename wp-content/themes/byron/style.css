@@ -199,11 +199,6 @@ License URI:byronsolutions.com
 
 
 
-
-
-
-
-
 /* PAGINA SERVIÇOS */ 
 .grid_servicos{
     display: grid;
@@ -427,9 +422,38 @@ License URI:byronsolutions.com
     transform: translate(-50%, -50%);
     text-align: center;
 }
+@media only screen and (max-width: 320px){
+    .traco_servicos_principal{
+        margin-top: -12%;
+    }
+    .grid_servicos_principal{
+        grid-template-columns: 1fr;
+    }
 
-@media only screen and (min-width: 320px) and (max-width: 425px){
+    .overlay_servicos {
+      padding-top: 64%;
+      bottom: 3%;
+      width: 100%;
+  }
+  .grid_servicos_principal{
+    padding-right: 5%;
+}
 
+.imagens_servicos{
+    width: 100%;
+    padding-bottom: 1%;
+}
+.descricao_servicos_principal{
+    margin-top: 1%;
+}
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 425px){
+
+    .traco_servicos_principal{
+        margin-top: -10%;
+    }
     .grid_servicos_principal{
         grid-template-columns: 1fr;
     }
@@ -511,11 +535,20 @@ License URI:byronsolutions.com
 
 @media only screen and (min-width: 426px) and (max-width: 768px){
 
-.imagem_empresa{
-    width: 95%!important;
-    padding-left: 0%;
-    padding-top: 25%;
+    .imagem_empresa{
+        width: 95%!important;
+        padding-left: 0%;
+        padding-top: 25%;
+    }
+
 }
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+
+    .imagem_empresa{
+        width: 95%;
+        padding-top: 0%;
+    }
 
 }
 
@@ -584,15 +617,26 @@ License URI:byronsolutions.com
 
 @media only screen and (max-width: 320px){
     .ideologia_titulo{
-        margin-top: 1%;
+        padding-left: 0%;
+        padding-top: 10%;
+    }
+
+    .ideologia_traco{
+        padding-left: 0%;
+        margin-top: -8%;
+    }
+    .texto_missoes{
+        color: black;
+        margin-top: 0%;
     }
 
     .traco_missoes{
-        font-size: 20px;
+        font-size: 28px;
     }
+
 }   
 
-@media only screen and (min-width: 320px) and (max-width: 425px){
+@media only screen and (min-width: 321px) and (max-width: 425px){
 
     .ideologia_titulo{
         padding-left: 0%;
@@ -615,24 +659,48 @@ License URI:byronsolutions.com
 }
 @media only screen and (min-width: 426px) and (max-width: 768px){
 
-.ideologia_titulo{
-    font-size: 22px;
+    .ideologia_titulo{
+        font-size: 22px;
+    }
+
+    .ideologia_traco{
+        font-size: 20px;
+    }
+    .missoes_texto{
+        font-size:25px;
+    }
+    .traco_missoes{
+        font-size: 25px;
+    }
+    .missoes_frases{
+        font-size: 17px;
+        margin-top: -1%;
+    }
+
 }
 
-.ideologia_traco{
-    font-size: 20px;
-}
-.missoes_texto{
-    font-size:25px;
-}
-.traco_missoes{
-    font-size: 25px;
-}
-.missoes_frases{
-    font-size: 17px;
-    margin-top: -1%;
-}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
 
+    .ideologia_titulo{
+        font-size: 30px;
+    }
+
+    .ideologia_traco{
+        font-size: 30px;
+    }
+    .missoes_texto{
+        margin-top: 0%;
+    }
+
+    .traco_missoes {
+        margin-top: -5%;
+        margin-bottom: 0%;
+    }
+
+    .missoes_frases {
+        font-size: 18px;
+        margin-top: 1%;
+    }
 
 }
 
@@ -642,6 +710,7 @@ License URI:byronsolutions.com
 /* CONTATO */
 .clientes{
     padding-bottom: 3%;
+    padding-top: 5%;
 }
 
 .clientes_grid6{
@@ -712,8 +781,17 @@ License URI:byronsolutions.com
         text-align: center;
         font-size: 40px;
     }
-    .cliente_logo{
-        width: 91%;
+    .cliente_logo9{
+        padding-left: 0%;
+        width: 90%;
+    }
+    .cliente_logo8{
+        padding-left: 0%;
+        width: 90%;
+    }
+    .cliente_logo7{
+        padding-left: 0%;
+        width: 90%;
     }
 
     .clientes{
@@ -722,16 +800,54 @@ License URI:byronsolutions.com
 }
 
 @media only screen and (min-width: 426px) and (max-width: 768px){
-.clientes_titulo{
-    font-size: 45px;
-}
-.traco_clientes{
-    font-size: 40px;
-}
-.clientes_grid6{
-    grid-template-columns: 1fr 1fr 1fr;
-}
+    .clientes_titulo{
+        font-size: 45px;
+    }
+    .traco_clientes{
+        font-size: 40px;
+    }
+    .clientes_grid6{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     .cliente_logo1{
+        padding-left: 0%;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+
+    .clientes_titulo{
+        padding-left: 70%;
+    }
+
+    .traco_clientes {
+        margin-top: -5%;
+        margin-bottom: 1%;
+        padding-left: 69%;
+        font-size: 55px;
+
+    }
+    .clientes_grid6{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .cliente_logo9{
+        padding-left: 47%;
+    }
+    .cliente_logo8{
+        padding-left: 27%;
+    }
+    .cliente_logo7{
+        padding-left: 0%;
+    }
+    .cliente_logo1{
+        padding-left: 47%;
+    }
+    .cliente_logo2{
+        padding-left: 27%;
+    }
+    .cliente_logo3{
         padding-left: 0%;
     }
 
@@ -822,22 +938,74 @@ License URI:byronsolutions.com
     margin-top: -2%;
     font-family: 'Dosis', sans-serif; 
 }
+@media only screen and (min-width: 321px) and (max-width: 425px){
+
+    .bases{
+        width: 425px;
+        height: 425px;
+    }
+    svg:not(:root){
+        margin-top: -155%;
+        width: 190%;
+    }
+    .bases_titulo {
+        padding-left: 47%;
+        padding-top: 0%;
+        font-size: 35px;
+        margin-top: -187%;
+    }
+    .bases_traco{
+        font-size: 13px;
+        padding-left: 47%;
+    }
+
+}
+@media only screen and (max-width: 320px){
+
+    .bases{
+        width: 319px;
+        height: 400px;
+    }
+    svg:not(:root){
+        margin-top: -228%;
+        width: 200%;
+    }
+    .bases_titulo {
+        padding-left: 25%;
+        padding-top: 0%;
+        font-size: 30px;
+        margin-top: -225%;
+    }
+    .bases_traco{
+        font-size: 13px;
+        padding-left: 25%;
+    }
+}
 
 @media only screen and (min-width: 426px) and (max-width: 768px){
 
-.bases_titulo{
-    font-size: 45px;
-    padding-top: 6%;
+    .bases_titulo{
+        font-size: 45px;
+        padding-top: 6%;
+    }
+
+    .bases_traco{
+        font-size: 18px;
+        margin-top: -4%;
+    }
+
+    svg:not(:root){
+        width: 100%;
+        margin-top: -35%;
+    }
 }
 
-.bases_traco{
-    font-size: 18px;
-    margin-top: -4%;
-}
-
-svg:not(:root){
-    width: 100%;
-    margin-top: -35%;
-}
-
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .bases_traco{
+        font-size: 25px;
+    }
+    svg:not(:root) {
+        width: 100%;
+        margin-top: -15%;
+    }
 }
