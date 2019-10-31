@@ -28,7 +28,7 @@
 <section id="serviços">
 
 	<h1 class="titulo_servicos_principal">SERVIÇOS</h1>	
-		<h1 class="traco_servicos_principal">___________</h1>	
+	<h1 class="traco_servicos_principal">___________</h1>	
 
 	<div class="grid_servicos_principal">
 		<div class="container_servicos">
@@ -378,9 +378,11 @@
 			</div>
 			<div> 
 				<p class="bases_titulo">BASES</p><p class="bases_traco">_______________________</p>
+				<!-- Dropdown Trigger -->
+
 			</div>
 		</div>
-	</di	v>
+	</div>
 </section>
 
 
@@ -419,23 +421,24 @@
 	</div>
 </section>
 
+
 <section id="clientes">
 	<div class="clientes">
 		<h1 class="clientes_titulo">CLIENTES</h1>
 		<h1 class="traco_clientes">___________</h1>
 		<div class="clientes_grid6">
-			<div><img class="cliente_logo9" src="<?php echo get_template_directory_uri(); ?>/img/cliente1.png"></div>
-			<div><img class="cliente_logo8" src="<?php echo get_template_directory_uri(); ?>/img/cliente2.png"></div>
-			<div><img class="cliente_logo7" src="<?php echo get_template_directory_uri(); ?>/img/cliente3.png"></div>
-			<div><img class="cliente_logo9" src="<?php echo get_template_directory_uri(); ?>/img/cliente4.png"></div>
-			<div><img class="cliente_logo8" src="<?php echo get_template_directory_uri(); ?>/img/cliente5.png"></div>
-			<div><img class="cliente_logo7" src="<?php echo get_template_directory_uri(); ?>/img/cliente_6.png"></div>
+			<div><a href="http://internationalpaper.com.br"><img class="cliente_logo9i " src="<?php echo get_template_directory_uri(); ?>/img/cliente1.jpg"></a></div>
+			<div><a href="https://cmpcbrasil.com.br"><img class="cliente_logo8" src="<?php echo get_template_directory_uri(); ?>/img/cliente2.png"></a></div>
+			<div><a href="https://arauco.cl"><img class="cliente_logo7" src="<?php echo get_template_directory_uri(); ?>/img/cliente3.png"></a></div>
+			<div><a href="https://eucatex.com.br"><img class="cliente_logo9" src="<?php echo get_template_directory_uri(); ?>/img/cliente4.png"></a></div>
+			<div><a href="https://klabin.com.br"><img class="cliente_logo8" src="<?php echo get_template_directory_uri(); ?>/img/cliente5.png"></a></div>
+			<div><a href="https://asperbras.com"><img class="cliente_logo7" src="<?php echo get_template_directory_uri(); ?>/img/cliente6.png"></a></div>
 
 		</div>
 		<div class="clientes_grid3">
-			<div><img class="cliente_logo1" src="<?php echo get_template_directory_uri(); ?>/img/cliente7.png"></div>
-			<div><img class="cliente_logo2" src="<?php echo get_template_directory_uri(); ?>/img/cliente8.png"></div>
-			<div><img class="cliente_logo3" src="<?php echo get_template_directory_uri(); ?>/img/cliente9.png"></div>				
+			<div><a href="https://suzano.com.br/"><img class="cliente_logo1" src="<?php echo get_template_directory_uri(); ?>/img/cliente7.png"></a></div>
+			<div><a href="https://cenibra.com.br"><img class="cliente_logo2" src="<?php echo get_template_directory_uri(); ?>/img/cliente8.jpg"></a></div>
+			<div><a href="https://sguariomadeiras.com.br"><img class="cliente_logo3" src="<?php echo get_template_directory_uri(); ?>/img/cliente9.png"></a></div>				
 		</div>
 	</div>
 </section>

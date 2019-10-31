@@ -7,13 +7,18 @@ License URI:byronsolutions.com
 
 
 
-/* DESENVOLVIDO POR BYRON SOLUTIONS*/ 
 
+/* DESENVOLVIDO POR BYRON SOLUTIONS*/ 
 
 @font-face {
     font-family: Hillgates;
     src: url(fonts/hillgates-webfont.woff);
 }
+
+.slick-next{
+    display: none!important;    
+}
+
 
 .brand-logo{
     padding-top: 0.5%!important;
@@ -36,8 +41,8 @@ License URI:byronsolutions.com
 }
 
 .nav-black{
-    background-color: black!important;
-    transition: 1s!important;
+    background-color: #039be5!important;
+    transition: 1.5s!important;
 }
 
 .nav-black li a{
@@ -569,7 +574,20 @@ License URI:byronsolutions.com
 
 .missoes_frases{
     font-size: 18px;
+    /*position: relative;
+    padding: 0 0 3%;
+    margin:0;*/
 }
+/*
+.missoes_frases::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left:18%;
+    width:63%;
+    height: 2px;
+    background-color: #0a73b6;
+}*/
 
 .fundo_missoes{
     width: 100%;
@@ -753,6 +771,8 @@ License URI:byronsolutions.com
 }
 
 
+
+
 @media only screen and (min-width: 320px) and (max-width: 425px){
     .clientes_grid6{
         grid-template-columns: 1fr 1fr;
@@ -782,6 +802,10 @@ License URI:byronsolutions.com
         font-size: 40px;
     }
     .cliente_logo9{
+        padding-left: 0%;
+        width: 90%;
+    }
+    .cliente_logo9i{
         padding-left: 0%;
         width: 90%;
     }
@@ -835,6 +859,9 @@ License URI:byronsolutions.com
     .cliente_logo9{
         padding-left: 47%;
     }
+    .cliente_logo9i{
+        padding-left: 47%;
+    }
     .cliente_logo8{
         padding-left: 27%;
     }
@@ -853,6 +880,10 @@ License URI:byronsolutions.com
 
 }
 
+.cliente_logo9i{
+    padding-left: 18%;
+}
+}  
 
 
 .parallax-container {
@@ -1008,4 +1039,13 @@ License URI:byronsolutions.com
         width: 100%;
         margin-top: -15%;
     }
+}
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section{
+    display: initial;
+}
+
+footer{
+    display: block;
 }

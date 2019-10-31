@@ -17,9 +17,11 @@ function byron_styles()
 
 	// Inserir: outros arquivos css se necesśario
 
-	wp_enqueue_style('style', get_template_directory_uri() . '/style.css', false);
+	
 	wp_enqueue_style('materialize', get_template_directory_uri() . "/css/materialize.min.css", array(), '');
+	wp_enqueue_style('style', get_template_directory_uri() . '/style.css', false);
 	wp_enqueue_style('aos', get_template_directory_uri() . "/css/aos.css", array(), '');
+
 
 	// Inserir: outros arquivos javascript se necesśario
 
