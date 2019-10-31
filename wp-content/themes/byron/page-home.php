@@ -53,13 +53,10 @@
 </section>
 
 <section id="bases">
-	<div>
-		<img class="bases" src="<?php echo get_template_directory_uri(); ?>/img/fundo_base.png">	
+	<div class="bases" >
+		<img src="<?php echo get_template_directory_uri(); ?>/img/fundo_base.png">	
 		<div class="grid_mapa">
 			<div>
-				<div id="msg-toca" style="display:none">
-					Mensagem Tocantins....
-				</div>
 				<div class="mapa">
 					<svg version="1.1" id="svg-map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="450px" height="460px" viewBox="0 0 450 460" enable-background="new 0 0 450 460" xml:space="preserve">
 						<g>
@@ -85,8 +82,7 @@
 								c0.521-1.505,2.465-0.725,3.533-0.794c2.273-0.164,0.494-2.738,1.095-3.778c2.026-3.793-2.738-5.999-1.998-10.408
 								c4.024,1.931,9.448,3.397,12.408,6.89c1.343,1.533,5.504,2.656,5.832,4.847c-6.822,0.384-6.901,8.819-11.942,11.572
 								C413.545,202.212,407.055,193.721,408.561,191.735z"></path>
-								<path class="circle" d="M417.324,182.854c6.214,0,11.266,5.035,11.266,11.262c0,6.208-5.052,11.261-11.266,11.261
-								c-6.238,0-11.258-5.053-11.258-11.261C406.063,187.89,411.084,182.854,417.324,182.854z"></path>
+
 								<text transform="matrix(1 0 0 1 408.9121 198.6689)" fill="#FFFFFF">SE</text>
 							</a>
 							<a xlink:href="#pernambuco">
@@ -104,8 +100,6 @@
 								c3.78,3.313,9.424,5.505,12.547,5.491c3.229-0.013,5.009-3.328,7.421-4.794c1.177-0.712,10.297-1.93,9.174,1.042
 								c-1.807,4.848-7.122,8.585-10.024,12.789c-2.792,2-3.423,7.093-6.354,1.864c-3.259,0.424-3.722-4.424-6.957-4.477
 								c-3.668-2.261-7.998-3.769-11.201-6.342C410.615,172.646,412.751,171.359,413.953,169.018z"></path>
-								<path class="circle" d="M436.423,168.763c6.236,0,11.258,5.054,11.258,11.278c0,6.207-5.02,11.259-11.258,11.259
-								c-6.241,0-11.263-5.052-11.263-11.259C425.16,173.816,430.182,168.763,436.423,168.763z"></path>
 								<text transform="matrix(1 0 0 1 429.7891 183.895)" fill="#FFFFFF">AL</text>
 							</a>
 							<a xlink:href="#riograndedonorte">

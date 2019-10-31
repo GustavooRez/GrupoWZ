@@ -883,44 +883,14 @@ License URI:byronsolutions.com
 .cliente_logo9i{
     padding-left: 18%;
 }
-}  
+ 
 
-
-.parallax-container {
-  position: absolute;
-  overflow: hidden;
-  height: 100vh;
-  background-image: linear-gradient(to top,rgba(14,14,14,0.5) 1%,rgba(14,14,14,0.1) 10%);
-
-}
-
-.parallax-container .parallax {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-}
-
-.parallax-container .parallax img {
-  opacity: 0;
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-}
 
 
 
 /* BASES*/ 
 
-.bases{
+.bases img{
     width: 100%;
     z-index: 1;;
 }
@@ -1020,6 +990,7 @@ License URI:byronsolutions.com
         padding-top: 6%;
     }
 
+
     .bases_traco{
         font-size: 18px;
         margin-top: -4%;
@@ -1042,10 +1013,17 @@ License URI:byronsolutions.com
 }
 
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section{
-    display: initial;
+.parallax_servicos {
+
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-footer{
-    display: block;
+@media only screen and (max-device-width: 1023px) {
+  .parallax_servicos {
+    background-attachment: scroll;
+  }
 }
