@@ -50,6 +50,12 @@ License URI:byronsolutions.com
     color: white;
 }
 
+@media only screen and (max-width: 425px){
+.brand-logo {
+    padding-top: 2%!important;
+    width: 50%;
+}
+}
 
 .footer-copyright {
     text-align: center;
@@ -202,9 +208,17 @@ License URI:byronsolutions.com
 
 }
 
-
-
 /* PAGINA SERVIÇOS */ 
+.servicos_titulo{
+    text-align: center;
+    margin: 0;
+    font-size: 6rem;
+    padding-top: 13%;
+    color: white;
+    text-shadow: 3px 3px black;
+        font-family: 'Dosis', sans-serif; 
+}
+
 .grid_servicos{
     display: grid;
     grid-template-columns: 1fr 1fr;     
@@ -574,20 +588,7 @@ License URI:byronsolutions.com
 
 .missoes_frases{
     font-size: 18px;
-    /*position: relative;
-    padding: 0 0 3%;
-    margin:0;*/
 }
-/*
-.missoes_frases::after{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left:18%;
-    width:63%;
-    height: 2px;
-    background-color: #0a73b6;
-}*/
 
 .fundo_missoes{
     width: 100%;
@@ -907,7 +908,7 @@ License URI:byronsolutions.com
     font-family: 'Dosis', sans-serif; 
     margin-top: -101%;
 }
-.cor_mapa path{ fill: red!important; }
+.cor_mapa path{ fill: #024896!important; }
 #svg-map path { fill:#0094d9 }
 #svg-map text { fill:#fff; font:12px Arial-BoldMT, sans-serif; cursor:pointer }
 #svg-map a{ text-decoration:none }
@@ -943,7 +944,7 @@ License URI:byronsolutions.com
 }
 @media only screen and (min-width: 321px) and (max-width: 425px){
 
-    .bases{
+    .bases img{
         width: 425px;
         height: 425px;
     }
@@ -965,7 +966,7 @@ License URI:byronsolutions.com
 }
 @media only screen and (max-width: 320px){
 
-    .bases{
+    .bases img{
         width: 319px;
         height: 400px;
     }

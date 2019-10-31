@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 <head>
-  <div class="parallax_servicos" style="background-image: linear-gradient(to top,rgba(14,14,14,0.5) 1%,rgba(14,14,14,0.1) 6%), url(<?php the_field("imagem_header"); ?>);?>);">
+  <div class="parallax_servicos" style="background-image: linear-gradient(to top,rgba(14,14,14,0.5) 1%,rgba(8,129,210,0.4) 6%), url(<?php the_field("imagem_header"); ?>);?>);">
+  	<p class="servicos_titulo"> SERVIÇOS </p>
 
   </div>
 </head>

@@ -52,7 +52,7 @@ if (class_exists('Redux')) {
                         <li><a href="#empresa" >A EMPRESA</a></li>
                         <li><a href="#clientes" >CLIENTES</a></li>
                         <li><a href="" >CONTATO</a></li>
-                        <li><a href="" >BLOG</a></li>
+                        <li><a href="" >NOVIDADES</a></li>
                     </ul>
                 </div>
             </nav>
