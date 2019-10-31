@@ -36,25 +36,6 @@ function byron_styles()
 }
 add_action('wp_enqueue_scripts', 'byron_styles');
 
-function create_post_type() {
-	register_post_type('banners',
-    // Definir as opções
-		array(
-			'labels' => array(
-				'name' => __('Banners'),
-				'singular_name' => __('Banners')
-			),
-			'supports' => array(
-				'title', 'editor', 'thumbnail'
-			),
-			'public' => true,
-			'has_archive' => true,
-			'menu_icon' => 'dashicons-images-alt',
-			'rewrite' => array('slug' => 'banners'),
-		));
-}
-//Iniciar o tipo de post
-add_action('init', 'create_post_type');
 
 
 
