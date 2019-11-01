@@ -6,7 +6,9 @@ License URI:byronsolutions.com
 */ 
 
 
-
+html{
+        font-family: 'Dosis', sans-serif; 
+}
 
 /* DESENVOLVIDO POR BYRON SOLUTIONS*/ 
 
@@ -1013,6 +1015,45 @@ License URI:byronsolutions.com
         width: 100%;
         margin-top: -15%;
     }
+}
+
+/* OVERLAY MAPA*/ 
+.fundo_bases{
+    padding-left: 1%;
+    width: 65%;
+    margin-top: 15%;
+    height: 15vh;
+    background-color: white;
+}
+
+.container_mapa {
+  position: relative;
+}
+
+.overlay_mapa {
+    position: absolute;
+    margin-left: -16%;
+    height: 27vh;
+    bottom: -46%;
+    background: #0A73B6;
+    color: #f1f1f1;
+    width: 195%;
+    padding-top: 55.5%;
+    padding-bottom: 0%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container_mapa:hover .overlay_mapa{
+  opacity: 0.9;
+}
+
+.grid_overlaymapa{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 

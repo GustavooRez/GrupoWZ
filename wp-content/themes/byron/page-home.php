@@ -362,8 +362,6 @@
 			</div>
 			<div> 
 				<p class="bases_titulo">BASES</p><p class="bases_traco">_______________________</p>
-				<!-- Dropdown Trigger -->
-
 			</div>
 		</div>
 	</div>
