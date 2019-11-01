@@ -27,34 +27,34 @@
 
 <section id="serviços">
 
-	<h1 class="titulo_servicos_principal">SERVIÇOS</h1>	
+	<h1 class="titulo_servicos_principal"><?php the_field('servicos');?></h1>	
 	<h1 class="traco_servicos_principal">___________</h1>	
 
 	<div class="grid_servicos_principal">
 		<div class="container_servicos">
-			<img class="imagens_servicos" src="<?php echo get_template_directory_uri(); ?>/img/top.png">
-			<div class="overlay_servicos"><div><div class="texto_overlay">TOPOGRAFIA</div></div><div class="texto_overlay_baixo"><div><a href="servicos">SAIBA MAIS</a></div></div></div>		
+			<img class="imagens_servicos" src="<?php the_field('imagem_topografia_servicos');?>">
+			<div class="overlay_servicos"><div><div class="texto_overlay"><?php the_field('descricao_topografia');?></div></div><div class="texto_overlay_baixo"><div><a href="servicos">SAIBA MAIS</a></div></div></div>		
 		</div>
 
 		<div class="container_servicos">
-			<img class="imagens_servicos" src="<?php echo get_template_directory_uri(); ?>/img/tecnologia.png">	
-			<div class="overlay_servicos"><div><div class="texto_overlay">TECNOLOGIA</div></div><div class="texto_overlay_baixo"><div><a href="servicos">SAIBA MAIS</a></div></div></div>	
+			<img class="imagens_servicos" src="<?php the_field('imagem_tecnologia_servicos');?>">	
+			<div class="overlay_servicos"><div><div class="texto_overlay"><?php the_field('descricao_tecnologia');?></div></div><div class="texto_overlay_baixo"><div><a href="servicos">SAIBA MAIS</a></div></div></div>	
 		</div>
 
 		<div class="container_servicos">
-			<img class="imagens_servicos" src="<?php echo get_template_directory_uri(); ?>/img/imobiliaria.png">
-			<div class="overlay_servicos"><div><div class="texto_overlay">IMOBILIÁRIA</div></div><div class="texto_overlay_baixo"><div><a href="servicos">SAIBA MAIS</a></div></div></div>				
+			<img class="imagens_servicos" src="<?php the_field('imagem_imobiliaria_servicos');?>">
+			<div class="overlay_servicos"><div><div class="texto_overlay"><?php the_field('descricao_imobiliaria');?></div></div><div class="texto_overlay_baixo"><div><a href="servicos">SAIBA MAIS</a></div></div></div>				
 		</div>
 
 	</div>
 
-	<p class="descricao_servicos_principal">Nossos serviços estão presentes em 11 estados brasileiros e <br> continuamos a expansão</p>
+	<p class="descricao_servicos_principal"><?php the_field('texto_servicos');?></p>
 
 </section>
 
 <section id="bases">
 	<div class="bases" >
-		<img src="<?php echo get_template_directory_uri(); ?>/img/fundo_base.png">	
+		<img src="<?php the_field('imagem_bases');?>">	
 		<div class="grid_mapa">
 			<div>
 				<div class="mapa">
@@ -66,7 +66,7 @@
 								S234.852,233.695,289.558,235.641z"></path>
 								<text transform="matrix(1 0 0 1 287.0137 188.3208)" fill="#FFFFFF">TO</text>
 							</a>
-							<a xlink:href="#bahia">
+							<a xlink:href="#bahia" id ="bahia">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M313.276,197.775
 								c2.084-2.739,3.506-7.012,6.464-8.764c1.641-0.973,3.232-4.684,4.271-5.163c2.304-1.014,12.161-25.143,20.706-22.513
 								c1.095,0.342,29.881,3.478,32.153,7.532c2.246-0.506,17.582-8.804,25.829-4.999c9.172,4.246,11.225,20.679,11.2,20.843
@@ -77,15 +77,14 @@
 								c-0.546-1.725-5.396-6.079-0.026-7.175c-3.175,0.959-1.944-4.027,0.875-3.012C316.726,200.733,314.044,200.527,313.276,197.775z"></path>
 								<text transform="matrix(1 0 0 1 359.7324 210.1221)" fill="#FFFFFF">BA</text>
 							</a>
-							<a xlink:href="#sergipe">
+							<a xlink:href="#sergipe" id="sergipe">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M408.561,191.735
 								c0.521-1.505,2.465-0.725,3.533-0.794c2.273-0.164,0.494-2.738,1.095-3.778c2.026-3.793-2.738-5.999-1.998-10.408
 								c4.024,1.931,9.448,3.397,12.408,6.89c1.343,1.533,5.504,2.656,5.832,4.847c-6.822,0.384-6.901,8.819-11.942,11.572
 								C413.545,202.212,407.055,193.721,408.561,191.735z"></path>
-
 								<text transform="matrix(1 0 0 1 408.9121 198.6689)" fill="#FFFFFF">SE</text>
 							</a>
-							<a xlink:href="#pernambuco">
+							<a xlink:href="#pernambuco" id="pernambuco">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M373.011,167.238
 								c2.709-0.795,6.218-14.106,8.325-15.106c4.136-1.986,17.255-1.437,17.8,4.903c-0.437-0.068,8.189-2.273,7.479-1.466
 								c1.7-0.711,10.518-4.723,12.599-4.82c0.274-0.013,4.603,0.905,3.068,2.315c-0.464,0.439,4.219,3.698,10.789,3.45
@@ -95,21 +94,21 @@
 								c0.219,0.108-8.244,6.681-7.506,3.314C383.556,170.4,374.241,168.566,373.011,167.238z"></path>
 								<text transform="matrix(1 0 0 1 401.3984 165.8003)" fill="#FFFFFF">PE</text>
 							</a>
-							<a xlink:href="#alagoas">
+							<a xlink:href="#alagoas" id="alagoas">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M413.953,169.018
 								c3.78,3.313,9.424,5.505,12.547,5.491c3.229-0.013,5.009-3.328,7.421-4.794c1.177-0.712,10.297-1.93,9.174,1.042
 								c-1.807,4.848-7.122,8.585-10.024,12.789c-2.792,2-3.423,7.093-6.354,1.864c-3.259,0.424-3.722-4.424-6.957-4.477
 								c-3.668-2.261-7.998-3.769-11.201-6.342C410.615,172.646,412.751,171.359,413.953,169.018z"></path>
 								<text transform="matrix(1 0 0 1 429.7891 183.895)" fill="#FFFFFF">AL</text>
 							</a>
-							<a xlink:href="#riograndedonorte">
+							<a xlink:href="#riograndedonorte" id="rn">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M404.698,138.795
 								c2.383-4.027,6.574-6.123,8.49-11.149c1.973-5.107,3.834-5.818,8.764-4.642c5.041,1.207,9.339,0.837,14.57,1.671
 								c7.534,1.193,6.848,10.968,9.206,16.516c-1.919,1.096-13.972,0.521-15.064-1.657c-1.041-2.067-2.904,7.107-5.094,7.3
 								c1.532-5.847-12.654,1.78-5.424-8.683c2.545-3.67-6.302-0.808-6.711,0.725C410.121,144.013,407.217,139.151,404.698,138.795z"></path>
 								<text transform="matrix(1 0 0 1 422.541 123.9009)" fill="#FFFFFF">RN</text>
 							</a>
-							<a xlink:href="#ceara">
+							<a xlink:href="#ceara" id="ceara">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M372.379,104.409
 								c0.437-1.368,2.961-3.627,1.043-5.025c12.106-1.328,17.581-0.849,27.66,6.723c4.026,3.054,6.822,5.574,10.571,9.147
 								c1.317,1.273,7.614,4.313,7.914,6.164c-0.054-0.316-5.396,3.696-5.997,5.217c-1.066,2.684-2.659,6.093-4.3,8.298
@@ -119,7 +118,7 @@
 								C373.035,102.314,374.815,105.971,372.379,104.409z"></path>
 								<text transform="matrix(1 0 0 1 386.8379 129.0347)" fill="#FFFFFF">CE</text>
 							</a>
-							<a xlink:href="#piaui">
+							<a xlink:href="#piaui" id="piaui">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M320.781,185.478
 								c2.465-5.149-7.505-20.801-7.505-20.801s47.354-65.868,54.285-66.841c0.299-0.042,6.243,1.768,6.463,2.219
 								c0.438,0.863-0.821,5.244-0.685,6.587c0.275,2.629,2.879,6.587,2.328,8.684c-1.15,4.736-1.863,6.134,1.369,9.901
@@ -129,7 +128,7 @@
 								C328.176,198.748,327.409,180.727,320.781,185.478z"></path>
 								<text transform="matrix(1 0 0 1 355.127 158.1045)" fill="#FFFFFF">PI</text>
 							</a>
-							<a xlink:href="#maranhao">
+							<a xlink:href="#maranhao" id="maranhao">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M288.845,127.827
 								c4.108-2.726,31.195-48.985,31.386-50.395c1.235,0.397,6.084,7.435,7.562,5.025c0.493,0.013-0.328,2.15-0.547,2.396
 								c-0.054-0.135,2.189-2.286,2.52-2.436c0.521-0.233,1.948,1.903,3.451-0.726c5.642,1.575,1.314,14.31,9.121,11.694
@@ -144,7 +143,7 @@
 								C290.983,125.675,290.983,128.044,288.845,127.827z"></path>
 								<text transform="matrix(1 0 0 1 318.2754 126.7036)" fill="#FFFFFF">MA</text>
 							</a>
-							<a xlink:href="#amapa">
+							<a xlink:href="#amapa" id="amapa">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M225.198,39.089
 								c3.274,1.165,3.985-1.315,6.572-1.74c3.616-0.603,5.683,2.725,9.037,2.067c4.055-0.78,7.093-8.025,7.314-11.598
 								c4.492-3.534,5.503-11.258,9.42-14.68c6.055,4.258,6.11,15.788,7.589,22.485c-0.164,0.083,6.57,7.998,7.944,8.682
@@ -152,7 +151,7 @@
 								C221.814,36.458,223.334,38.417,225.198,39.089z"></path>
 								<text transform="matrix(1 0 0 1 245.9023 52.6099)" fill="#FFFFFF">AP</text>
 							</a>
-							<a xlink:href="#para">
+							<a xlink:href="#para" id="para">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M173.378,50.619
 								c2.259,2.63,5.629-4.478,7.901-3.82c3.19,0.918,1.478-1.108,5.026-1.752c1.931,0.806,3.096,0.273,3.519-1.631
 								c0.535-1.26,1.453-1.726,2.725-1.384c1.768-1.684,13.558,3.603,14.68,0.384c0.629-1.821-4.287-5.709-0.302-6.997
@@ -169,7 +168,7 @@
 								C319.302,76.912,319.74,78.76,319.139,77.664z"></path>
 								<text transform="matrix(1 0 0 1 232.7725 122.5137)" fill="#FFFFFF">PA</text>
 							</a>
-							<a xlink:href="#roraima">
+							<a xlink:href="#roraima" id="roraima">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M113.18,24.107
 								c-0.972-2.753-7.861-5.889-6.999-8.984c0.068-0.232,13.229,6.053,12.79,2.808c0.398,1.329,1.219,1.889,2.439,1.685
 								c1.889-1.301,7.148,4.204,8.216,1.889c0.438-0.959-1.657-3.753,0.74-3.848c1.026,0.438,1.534,0.164,1.52-0.822
@@ -180,7 +179,7 @@
 								s-12.517-52.736-20.335-54.063C115.261,36.417,111.523,25.682,113.18,24.107z"></path>
 								<text transform="matrix(1 0 0 1 136.2939 42.3862)" fill="#FFFFFF">RR</text>
 							</a>
-							<a xlink:href="#amazonas">
+							<a xlink:href="#amazonas" id="amazonas">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M10.078,136.412
 								c1.15-4.972,4.258-10.394,8.215-13.105c4.41-3.027,7.656-5.71,13.105-6.082c2.165-0.149,10.216-5.75,11.983-2.984
 								c3.711,5.765,4.998-3.739,5.574-7.025c1.726-9.667,3.697-19.322,4.86-29.086c-0.342-1.356-2.013-6.231-2.833-7.163
@@ -200,7 +199,7 @@
 								c-8.601-4.381-16.61-8.981-26.088-11.05c-10.282-2.259-20.635-4.793-29.878-10.011C4.121,145.766,12.433,144.779,10.078,136.412z"></path>
 								<text transform="matrix(1 0 0 1 98.1406 119.0591)" fill="#FFFFFF">AM</text>
 							</a>
-							<a xlink:href="#acre">
+							<a xlink:href="#acre" id="acre">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M3.656,148.545
 								c12.557,7.544,27.524,8.367,41.082,13.2c12.802,8.065,27.278,12.845,40.616,19.872c-2.834,1.205-7.587,4.382-9.983,6.395
 								c-2.93,2.45-1.3,2.04-4.628,1.957c-2.93-0.069-3.957,4.615-7.203,5.259c-2.999,0.603-7.161-1.958-10.995-1.697
@@ -208,7 +207,7 @@
 								c-6.82,3.149-8.339,7.19-16.733,7.013c-2.136-0.042-2.562-2.492-3.081-4.001c-1.247-3.572-7.218-3.422-10.559-3.778
 								c6.299-3.41-3.107-11.9-5.216-15.679c-0.52-0.918-3.588-4.655-3.629-5.957C1.642,150.174,6.612,151.968,3.656,148.545z"></path>
 								<text transform="matrix(1 0 0 1 47.7017 184.9355)" fill="#FFFFFF">AC</text>
-							</a><a xlink:href="#rondonia">
+							</a><a xlink:href="#rondonia" id="rondonia">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M83.34,180.232
 								c0.931-1.574,5.341-4.668,6.312-4.656c1.355-0.067,2.671,0.138,3.958,0.603c3.012,1.44,2.039-1.135,5.341-0.123
 								c-1.274-2.287,3.793-2.943,2.86-0.315c3.068,0.247,2.725-4.683,6.668-5.12c4.438-0.508,5.054-0.646,7.122-4.534
@@ -220,7 +219,7 @@
 								c-0.384-6.081-1.028-1.986-3.382-1.903C94.336,180.686,85.957,181.671,83.34,180.232z"></path>
 								<text transform="matrix(1 0 0 1 118.1299 195.3193)" fill="#FFFFFF">RO</text>
 							</a>
-							<a xlink:href="#matogrosso">
+							<a xlink:href="#matogrosso" id="matogrosso">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M142.237,173.962
 								c4-0.316-1.888-6.452,5-5.738c7.914,0.808,16.295,0.328,24.279,0.218c1.629-0.013,8.902,1.288,7.395-1.833
 								c-1.192-2.453,1.821-6.425,0.425-9.725c2.027-0.864,1.289-3.807,2.629-5.107c1.151-1.123,4.176,7.244,4.436,7.819
@@ -235,7 +234,7 @@
 								C143.581,176.618,141.937,174.714,142.237,173.962z"></path>
 								<text transform="matrix(1 0 0 1 200.0244 218.4175)" fill="#FFFFFF">MT</text>
 							</a>
-							<a class="cor_mapa" xlink:href="#mattogrossodosul">
+							<a xlink:href="#mattogrossodosul" id="ms">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M183.198,294.536
 								c2.136-4.464,3.177-9.394,5.312-13.61c1.712-3.344-4.067-7.587-2.423-9.807c0.027-0.026,2.738,3.641,3.917,3.725
 								c3.204-1.534,4.807-2.272,6.984-5.228c2.615-3.59,10.832-3.014,14.051-0.305c1.259,1.041,3.068,2.107,4.668,2.574
@@ -247,7 +246,7 @@
 								c0.932-2.847,1.411-9.912,0.453-11.856c-0.165-0.331-3.52-7.232-2.547-8.108C186.306,297.688,182.334,299.415,183.198,294.536z"></path>
 								<text transform="matrix(1 0 0 1 213.2939 306.7236)" fill="#FFFFFF">MS</text>
 							</a>
-							<a xlink:href="#goias">
+							<a xlink:href="#goias" id="goias">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M237.768,270.519
 								c0.628-2.904,1.835-7.396,4.709-8.766c1.015-1.644,1.754-5.147,2.275-5.586c2.408-2.247,3.889-3.783,6.63-4.656
 								c3.723-1.205,3.338-5.342,4.846-8.165c1.504-2.845,4.736-1.15,5.942-3.382c1.479-2.834,0.741-6.161,2.189-8.874
@@ -263,7 +262,7 @@
 								c-3.724-0.604,1.04-3.231,0.22-4.109c-1.89-1.916-4.382,1.756-3.588-3.012C239.602,274.627,237.055,273.038,237.768,270.519z"></path>
 								<text transform="matrix(1 0 0 1 266.9111 254.2139)" fill="#FFFFFF">GO</text>
 							</a>
-							<a xlink:href="#parana">
+							<a xlink:href="#parana" id="parana">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M222.225,363.694
 								c1.807-2.138,1.889-4.881,2.424-7.479c0.301-1.453,0.465-7.86,1.369-8.736c2.3-0.684,2.3-3.315,2.726-5.204
 								c0.616-2.738,2.821-2.958,3.984-5.616c4.369-9.91,38.947-9.529,46.476-9.227c4.658,0.193,15.775,34.563,17.916,33.794
@@ -271,7 +270,7 @@
 								c-3.875-1.449-2.698-6.491-6.054-8.216C226.663,364.623,222.498,367.8,222.225,363.694z"></path>
 								<text transform="matrix(1 0 0 1 248.4453 356.1045)" fill="#FFFFFF">PR</text>
 							</a>
-							<a xlink:href="#santacatarina">
+							<a xlink:href="#santacatarina" id="santacatarina">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M231.029,383.959
 								c1.669-3.338-0.284-10.516,4.573-10.569c6.631-0.109,13.639,3.559,20.402,3.888c1.317,0.055,5.231,2.163,4.357-1.15
 								c-1.095-4.164,3.945-1.863,5.67-3.179c2.274-1.724,8.187-4.106,11.311-1.367c1.423,1.809,20.05-5.395,13.284,3.946
@@ -279,7 +278,7 @@
 								C276.085,411.866,233.534,382.918,231.029,383.959z"></path>
 								<text transform="matrix(1 0 0 1 266.9111 387.7646)" fill="#FFFFFF">SC</text>
 							</a>
-							<a xlink:href="#riograndedosul">
+							<a xlink:href="#riograndedosul" id="riograndedosul">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M191.236,416.881
 								c0.52-2.684,7.38-8.409,9.477-10.351c0.37-0.359,8.599-10.08,9.174-8.329c-1.301-3.89,2.781-1.589,3.917-4.819
 								c0.26-0.521,7.04-4.821,7.109-4.795c1.436-0.191,6.721-3.695,7.421-3.257c1.204-2.028,8.927-1.479,8.653-0.824
@@ -290,7 +289,7 @@
 								c-2.3-1.999-4.793-5.479-7.737-6.68c-3.478-1.367-5.615,5.145-9.052,0.821C189.168,418.854,190.332,418.032,191.236,416.881z"></path>
 								<text transform="matrix(1 0 0 1 231.0313 414.4658)" fill="#FFFFFF">RS</text>
 							</a>
-							<a class="cor_mapa" xlink:href="#saopaulo">
+							<a xlink:href="#saopaulo" id="saopaulo">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M239.3,330.554
 								c3.26-4.356,9.56-5.039,11.531-10.792c1.369-3.942,3.889-8.818,6.135-13.036c1.561-2.957,7.749-7.121,10.517-8.65
 								c0.383-0.196,32.974-6.138,42.234-1.701c20.265,9.724,26.017,33.879,27.854,33.304c4.408-1.425,5.34,3.778,2.106,4.49
@@ -302,7 +301,7 @@
 								C247.982,330.386,239.876,331.21,239.3,330.554z"></path>
 								<text transform="matrix(1 0 0 1 280.6816 327.3193)" fill="#FFFFFF">SP</text>
 							</a>
-							<a xlink:href="#minasgerais">
+							<a xlink:href="#minasgerais" id="minasgerais">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M262.881,297.305
 								c-1.696-5.094,15.531-19.882,18.844-13.421c5.531-7.367,15.886,1.588,19.773-3.944c0.988-1.367,3.015-1.453,3.725-2.957
 								c0.326-0.711-0.493-2.793-0.056-3.888c1.369-3.398-4.873-2.355-0.109-6.603c4.547-4.053-1.917-4.739-1.204-8.186
@@ -321,7 +320,7 @@
 								c-4.708-0.353-5.53-1.613-9.858,0.631C262.993,300.562,262.336,299.274,262.881,297.305z"></path>
 								<text transform="matrix(1 0 0 1 328.4063 286.4561)" fill="#FFFFFF">MG</text>
 							</a>
-							<a xlink:href="#riodejaneiro">
+							<a xlink:href="#riodejaneiro" id="riodejaneiro">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M332.886,337.429
 								c-1.26-2.768,8.409-4.795,7.89-6.71c-3.177-1.864-4.602,1.148-6.63-2.959c4.274-0.686,9.533-4.49,13.831-3.562
 								c0.548-0.219,4.902-1.753,4.96,0.167c2.546-1.566,5.479-2.412,8.105-3.837c2.246-1.206,0.932-8.218,3.725-9.643
@@ -330,9 +329,10 @@
 								c0,0,0.105,2.767-0.74,2.741c-0.766-0.056-7.643,1.094-7.449,0.463c1.398-0.359,2.708-0.684,4.135-0.794
 								c-1.667-0.713-2.957-1.839-4.901-0.142c0.465,0.195-4.227-0.086-3.379-0.113c-0.521,1.727-3.814,0.699-3.879,3.045
 								C336.717,337.908,333.927,342.41,332.886,337.429z"></path>
+
 								<text transform="matrix(1 0 0 1 347.4648 334.6807)" fill="#FFFFFF">RJ</text>
 							</a>
-							<a xlink:href="#espiritosanto">
+							<a xlink:href="#espiritosanto" id="espiritosanto">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M367.119,308.834
 								c1.044-1.999-0.298-5.451,1.841-6.326c3.697-1.453,3.858-0.467,5.941-4.49c0.767-1.563,3.999-5.807,2.848-7.835
 								c-0.439-0.765-3.204-3.613-3.286-4.05c1.04-0.249,2.079-0.219,3.123,0.054c1.366-0.654-6.465-10.519,2.137-8.054
@@ -341,27 +341,31 @@
 								c-1.64-0.274-3.202-0.768-4.736-1.451C368.819,311.297,369.424,309.055,367.119,308.834z"></path>
 								<text transform="matrix(1 0 0 1 373.3047 300.4971)" fill="#FFFFFF">ES</text>
 							</a>
-							<a xlink:href="#distritofederal">
+							<a xlink:href="#distritofederal" >
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M292.461,246.197
 								c0,0,12.929-2.903,14.188,0c1.233,2.903,0.659,10.683-1.424,11.504c-2.08,0.849-14.296-1.806-14.023-3.313
 								C291.503,252.853,292.461,246.197,292.461,246.197z"></path>
-								<text transform="matrix(1 0 0 1 292.4141 254.2139)" fill="#FFFFFF">DF</text>
+								<path class="circle" d="M300.735,238.34c6.212,0,11.26,5.035,11.26,11.258c0,6.21-5.048,11.263-11.26,11.263
+								c-6.209,0-11.261-5.053-11.261-11.263C289.475,243.377,294.523,238.34,300.735,238.34z"></path>
+
 							</a>
-							<a xlink:href="#paraiba">
+							<a xlink:href="#paraiba" id="paraiba">
 								<path stroke="#FFFFFF" stroke-width="1.0404" stroke-linecap="round" stroke-linejoin="round" d="M401.575,141.096
 								c2.081-3.081,16.791-6.82,19.117-4.616c0,1.918,7.259,1.686,10.133,2.712c-0.492,3.038,12.652,1.533,14.408,2.259
 								c1.421,0.589,3.833,11.983,1.421,12.202c-0.874-1.124-2.083-1.739-3.586-1.835c-2.957-0.027-2.546,1.863-4.383,3.108
 								c-2.626,1.767-6.571,1.917-9.558,2.109c-0.162,1.232-3.943,4.438-5.259,4.916c-3.122,1.149-2.657-2.727-5.095-3.602
 								c0.713-1.124,4.082-5.203,3.725-6.205c-1.423-3.846-12.051,5.52-14.981,3.506c-1.396-0.973-6.218,1.493-3.476-2.588
 								C405.574,150.776,400.398,142.889,401.575,141.096z"></path>
+
 								<text transform="matrix(1 0 0 1 425.2129 148.9893)" fill="#FFFFFF">PB</text>
 							</a>
 						</g>
 					</svg>
-				</div>	
+				</div>
+
 			</div>
 			<div> 
-				<p class="bases_titulo">BASES</p><p class="bases_traco">_______________________</p>
+				<p class="bases_titulo"><?php the_field('bases');?></p><p class="bases_traco">_______________________</p>
 			</div>
 		</div>
 	</div>
@@ -374,12 +378,12 @@
 	<div class="grid_empresa">
 
 		<div class="empresa_texto" >
-			<h1 class="empresa_titulo"><u>EMPRESA</u></h1>
-			<p class="empresa_descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu ullamcorper velit. Mauris quis lorem leo. Suspendisse ut metus facilisis turpis faucibus mollis. Morbi auctor libero sed pretium lobortis. Proin sed diam dapibus, scelerisque elit ut, facilisis sem. Maecenas pharetra sit amet turpis vitae iaculis. Nulla eget enim tempor, viverra urna ac, elementum libero. Suspendisse nec odio id enim cursus condimentum ac quis arcu. Sed dictum aliquam leo, mollis gravida sem egestas eu. Duis tristique pharetra lectus vel viverra. </p>
+			<h1 class="empresa_titulo"><u><?php the_field('empresa');?></u></h1>
+			<p class="empresa_descricao"><?php the_field('texto_empresa');?> </p>
 		</div>
 
 		<div class="empresa_imagem" >
-			<img class="imagem_empresa" src="<?php echo get_template_directory_uri(); ?>/img/empresa.png">
+			<img class="imagem_empresa" src="<?php the_field('imagem_empresa');?>">
 		</div>
 
 	</div>
@@ -387,17 +391,18 @@
 
 <section id="missoes">
 	<div class="missoes">
-		<img class="fundo_missoes" src="<?php echo get_template_directory_uri(); ?>/img/fundo_missoes.png">
-		<div> <p class="ideologia_titulo">Ideologia Empresarial</p><p class="ideologia_traco">_______________________</p>
+		<img class="fundo_missoes" src="<?php the_field('imagem_missoes');?>">
+		<div> <p class="ideologia_titulo"><?php the_field('titulo');?></p>
+			<p class="ideologia_traco">_______________________</p>
 			<div class="texto_missoes">
-				<p class="missoes_texto">MISSÃO</p>
-				<p class="missoes_frases">Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
+				<p class="missoes_texto"><?php the_field('missao');?></p>
+				<p class="missoes_frases"><?php the_field('texto_missao');?></p>
 				<h1 class="traco_missoes">________________________________________</h1>
-				<p class="missoes_texto">VISÃO</p>
-				<p class="missoes_frases">Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
+				<p class="missoes_texto"><?php the_field('visao');?></p>
+				<p class="missoes_frases"><?php the_field('texto_visao');?></p>
 				<h1 class="traco_missoes">_________________________________________</h1>
-				<p class="missoes_texto">VALORES</p>
-				<p class="missoes_frases">Lorem ipsum dolor sit amet<br>consectetur adipiscing elit<br>consectetur adipiscing elit</p>
+				<p class="missoes_texto"><?php the_field('valores');?></p>
+				<p class="missoes_frases"><?php the_field('texto_valores');?></p>
 			</div>
 		</div>	
 	</div>
@@ -406,21 +411,21 @@
 
 <section id="clientes">
 	<div class="clientes">
-		<h1 class="clientes_titulo">CLIENTES</h1>
+		<h1 class="clientes_titulo"><?php the_field('titulo_clientes');?></h1>
 		<h1 class="traco_clientes">___________</h1>
 		<div class="clientes_grid6">
-			<div><a href="http://internationalpaper.com.br"><img class="cliente_logo9i " src="<?php echo get_template_directory_uri(); ?>/img/cliente1.jpg"></a></div>
-			<div><a href="https://cmpcbrasil.com.br"><img class="cliente_logo8" src="<?php echo get_template_directory_uri(); ?>/img/cliente2.png"></a></div>
-			<div><a href="https://arauco.cl"><img class="cliente_logo7" src="<?php echo get_template_directory_uri(); ?>/img/cliente3.png"></a></div>
-			<div><a href="https://eucatex.com.br"><img class="cliente_logo9" src="<?php echo get_template_directory_uri(); ?>/img/cliente4.png"></a></div>
-			<div><a href="https://klabin.com.br"><img class="cliente_logo8" src="<?php echo get_template_directory_uri(); ?>/img/cliente5.png"></a></div>
-			<div><a href="https://asperbras.com"><img class="cliente_logo7" src="<?php echo get_template_directory_uri(); ?>/img/cliente6.png"></a></div>
+			<div><a href="http://internationalpaper.com.br"><img class="cliente_logo9i " src="<?php the_field('cliente_1');?>"></a></div>
+			<div><a href="https://cmpcbrasil.com.br"><img class="cliente_logo8" src="<?php the_field('cliente_2');?>"></a></div>
+			<div><a href="https://arauco.cl"><img class="cliente_logo7" src="<?php the_field('cliente_3');?>"></a></div>
+			<div><a href="https://eucatex.com.br"><img class="cliente_logo9" src="<?php the_field('cliente_4');?>"></a></div>
+			<div><a href="https://klabin.com.br"><img class="cliente_logo8" src="<?php the_field('cliente_5');?>"></a></div>
+			<div><a href="https://asperbras.com"><img class="cliente_logo71" src="<?php the_field('cliente_6');?>"></a></div>
 
 		</div>
 		<div class="clientes_grid3">
-			<div><a href="https://suzano.com.br/"><img class="cliente_logo1" src="<?php echo get_template_directory_uri(); ?>/img/cliente7.png"></a></div>
-			<div><a href="https://cenibra.com.br"><img class="cliente_logo2" src="<?php echo get_template_directory_uri(); ?>/img/cliente8.jpg"></a></div>
-			<div><a href="https://sguariomadeiras.com.br"><img class="cliente_logo3" src="<?php echo get_template_directory_uri(); ?>/img/cliente9.png"></a></div>				
+			<div><a href="https://suzano.com.br/"><img class="cliente_logo1" src="<?php the_field('cliente_7');?>"></a></div>
+			<div><a href="https://cenibra.com.br"><img class="cliente_logo2" src="<?php the_field('cliente_8');?>"></a></div>
+			<div><a href="https://sguariomadeiras.com.br"><img class="cliente_logo3" src="<?php the_field('cliente_9');?>"></a></div>				
 		</div>
 	</div>
 </section>

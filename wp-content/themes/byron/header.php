@@ -43,16 +43,16 @@ if (class_exists('Redux')) {
 <body>
     <header>
         <div class="navbar-fixed">
-            <nav class="nav-white">
-                <div class="nav-wrapper">
-                    <a href="home"><img href="" class="brand-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_grupo_wz.png"></img></a>
+            <nav class="nav-wrapper">
+                <div >
+                    <a href="home"><img href="" class="brand-logo" src="<?php the_field('logo');?>"></img></a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="#home" >HOME</a></li>
-                        <li><a href="#serviços" >SERVIÇOS</a></li>
-                        <li><a href="#empresa" >A EMPRESA</a></li>
-                        <li><a href="#clientes" >CLIENTES</a></li>
-                        <li><a href="" >CONTATO</a></li>
-                        <li><a href="" >NOVIDADES</a></li>
+                        <li><a href="#home" ><?php the_field('campo_1');?></a></li>
+                        <li><a href="#serviços" ><?php the_field('campo_2');?></a></li>
+                        <li><a href="#empresa" ><?php the_field('campo_3');?></a></li>
+                        <li><a href="#clientes" ><?php the_field('campo_4');?></a></li>
+                        <li><a href="" ><?php the_field('campo_5');?></a></li>
+                        <li><a href="" ><?php the_field('campo_6');?></a></li>
                     </ul>
                 </div>
             </nav>
