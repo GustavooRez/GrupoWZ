@@ -3,9 +3,9 @@
 <section id="home">
 	<div class="header">
 		<div class="fade">
-			<div><img src="<?php echo get_template_directory_uri();?> /img/header1.png" alt="TOPOGRAFIA" width="100%"/></div>
-			<div><img src="<?php echo get_template_directory_uri();?> /img/header2.png" alt="IMOBILIARIA" width="100%"/></div>
-			<div><img src="<?php echo get_template_directory_uri();?> /img/header3.png" alt="TECNOLOGIA" width="100%"/></div>
+			<div><img src="<?php the_field("carrossel_imagem_1") ;?>"alt="TOPOGRAFIA"/></div>
+			<div><img src="<?php the_field("carrossel_imagem_2") ;?>" alt="IMOBILIARIA" /></div>
+			<div><img src="<?php the_field("carrossel_imagem_3") ;?>" alt="TECNOLOGIA"/></div>
 		</div>
 
 		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>

@@ -1094,4 +1094,11 @@ html{
   .parallax_servicos {
     background-attachment: scroll;
 }
+
+
+/*HEADER*/
+
+.header img{
+    height:100vh;
+    max-width: 100%;
 }
