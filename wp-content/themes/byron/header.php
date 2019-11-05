@@ -45,7 +45,7 @@ if (class_exists('Redux')) {
         <div class="navbar-fixed">
             <nav class="nav-wrapper">
                 <div >
-                    <a href="home"><img href="" class="brand-logo" src="<?php the_field('logo');?>"></img></a>
+                    <a href="home"><img href="" class="brand-logo" src="<?php the_field('logo');?>"></a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a href="#home" ><?php the_field('campo_1');?></a></li>
                         <li><a href="#serviços" ><?php the_field('campo_2');?></a></li>

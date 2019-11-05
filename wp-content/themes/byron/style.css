@@ -911,6 +911,7 @@ html{
     font-family: 'Dosis', sans-serif; 
     margin-top: -101%;
 }
+
 #svg-map text { fill:#fff; font:12px Arial-BoldMT, sans-serif; cursor:pointer }
 #svg-map a{ text-decoration:none }
 #svg-map a:hover { cursor:pointer; text-decoration:none }
@@ -945,6 +946,7 @@ html{
 #paraiba{ fill: #d4d3d4}
 
 #msg-toca{background-color:#0094d9}
+
 .mapa{
     z-index: 2;
     padding-left: 25%;
@@ -1094,11 +1096,71 @@ html{
   .parallax_servicos {
     background-attachment: scroll;
 }
+}
+
+/*Home*/
 
 
-/*HEADER*/
+body{
+    width: 100%;
+}
+.carrossel{
+    width: 100%;
+}
 
-.header img{
-    height:100vh;
-    max-width: 100%;
+/*Blog*/
+
+.blog_titulo{
+    text-align: center;
+    margin: 0;
+    font-size: 6rem;
+    padding-top: 9%;
+    color: white;
+    text-shadow: 3px 3px black;
+    font-family: 'Dosis', sans-serif; 
+}
+.parallax_blog {
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  @media only screen and (max-device-width: 1023px) {
+    .parallax_blog{
+        background-attachment: scroll;
+        height:40vh;
+    }
+
+    .blog_titulo{
+        text-align: center;
+        margin: 0;
+        font-size: 4rem;
+        padding-top: 30%;
+        color: white;
+        text-shadow: 3px 3px black;
+        font-family: 'Dosis', sans-serif; 
+    }
+  }
+
+.caixa_post{
+    background-color: #eceaea;
+    -webkit-box-shadow: -1px 2px 8px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    -1px 2px 8px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         -1px 2px 8px 0px rgba(50, 50, 50, 0.75);
+}
+
+#post{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 5%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 1%; 
+    grid-column-gap: 40px;
+    grid-row-gap: 1em;
+}
+
+.post_imagem{
+    max-width:100%;
 }

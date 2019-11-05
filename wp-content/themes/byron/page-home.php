@@ -2,11 +2,13 @@
 
 <section id="home">
 	<div class="header">
+	<div class="carrossel">
 		<div class="fade">
 			<div><img src="<?php the_field("carrossel_imagem_1") ;?>"alt="TOPOGRAFIA"/></div>
 			<div><img src="<?php the_field("carrossel_imagem_2") ;?>" alt="IMOBILIARIA" /></div>
 			<div><img src="<?php the_field("carrossel_imagem_3") ;?>" alt="TECNOLOGIA"/></div>
 		</div>
+	</div>
 
 		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -14,7 +16,6 @@
 		<script type="text/javascript">
 			$('.fade').slick({
 				infinite: true,
-				speed: 500,
 				fade: true,
 				cssEase: 'linear',
 				autoplay: true,
@@ -23,7 +24,6 @@
 		</script>
 	</div>
 </section>
-
 
 <section id="serviços">
 
