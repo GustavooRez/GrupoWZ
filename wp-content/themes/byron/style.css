@@ -912,40 +912,194 @@ html{
     margin-top: -101%;
 }
 
-#svg-map text { fill:#fff; font:12px Arial-BoldMT, sans-serif; cursor:pointer }
+.bases_descricao{
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    padding-left: 10%;
+    padding-top: 10%;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 0%;
+    font-family: 'Dosis', sans-serif; 
+    margin-top: -10%;
+}
+ 
+}
+
+#svg-map text { fill:#003399; font:12px Dosis; cursor:pointer }
 #svg-map a{ text-decoration:none }
 #svg-map a:hover { cursor:pointer; text-decoration:none }
 #svg-map a:hover path{ fill:#003399 !important }
 #svg-map .circle { fill:#d4d3d3 }
 #svg-map a:hover .circle { fill:#003399 !important; cursor:pointer }
-#toca{fill:#0094d9}
-#bahia{ fill:#0094d9}
+#toca{fill:#ffff66}
+#bahia{ fill:#ffff66}
 #sergipe{ fill: #d4d3d3}
 #pernambuco{ fill: #d4d3d3}
 #alagoas { fill: #d4d3d3}
 #rn {fill: #d4d3d3}
 #ceara{ fill: #d4d3d3}
-#piaui { fill: #0094d9}
-#maranhao { fill: #0094d9}
-#amapa { fill: #0094d9}
-#para{ fill: #0094d9}
+#piaui { fill: #d4d3d3}
+#maranhao { fill: #d4d3d3}
+#amapa { fill: #d4d3d3}
+#para{ fill: #d4d3d3}
 #roraima{ fill: #d4d3d3}
 #amazonas{ fill: #d4d3d3}
 #acre { fill: #d4d3d3}
 #rondonia{ fill: #d4d3d3}
 #matogrosso{ fill: #d4d3d3}
-#ms { fill: #0094d9}
+#ms { fill: #ffff66}
 #goias { fill: #d4d3d3}
-#parana{fill: #0094d9}
+#parana{fill: #ffff66}
 #santacatarina{fill: #d4d3d3}
 #riograndedosul{ fill:#03b5a5}
 #saopaulo{ fill:#03b5a5}
-#minasgerais{ fill: #0094d9}
+#minasgerais{ fill: #ffff66}
 #riodejaneiro{fill: #d4d3d3}
-#espiritosanto{ fill: #0094d9}
+#espiritosanto{ fill:#d4d3d3}
 #paraiba{ fill: #d4d3d4}
 
-#msg-toca{background-color:#0094d9}
+
+#msg-saopaulo{
+    background-color: white;
+    border-radius: 20px;
+    width: 40%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+#bases-saopaulo{
+    background-color: white;
+    border-radius: 20px;
+    width: 40%;
+    padding-bottom: 2%;
+    margin-top: -48%;
+    margin-left: 56%;
+}
+
+.titulo_sp{
+    text-align: center;
+    font-size: 2.5rem;
+    color: red;
+    padding-top: 3%;
+    margin-bottom: 0;
+}
+.titulo_rgs{
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+    padding-top: 3%;
+    margin-bottom: 0;
+}
+.sede_sp{
+    text-align: center;
+    color: black;
+    margin-top: 1.5%;
+    margin-bottom: 0;
+    font-size: 1.8rem;
+}
+
+.equipe_sp{
+    text-align: center;
+    color: black;
+    margin-top: 1.5%;
+    padding-top: 2%;
+    margin-bottom: 0;
+    font-size: 1.8rem;
+}
+
+.traco_bases{
+    text-align: center;
+    color: black;
+    margin-top:-5%;
+    font-size: 2rem;
+
+}
+.traco_bases-sp{
+    text-align: center;
+    color: black;
+    margin-top:-5%;
+    margin-bottom: 0;
+    font-size: 2rem;
+
+}
+
+.texto_sp{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.texto_bases_sp{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 0;
+}
+
+#msg-rgs{
+    background-color: white;
+    border-radius: 20px;
+    width: 40%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+#bases-rgs{
+    background-color: white;
+    border-radius: 20px;
+    width: 40%;
+    padding-bottom: 2%;
+    margin-top: -46%;
+    margin-left: 56%;
+}
+
+#msg-mg{
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 21%;
+}
+
+#msg-bahia{
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 21%;
+}
+
+#msg-toca{
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 21%;
+    transition: 1s;
+}
+
+#msg-parana{
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 21%;
+}
+
+#msg-mgs{
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 21%;
+}
+
 
 .mapa{
     z-index: 2;
@@ -967,7 +1121,7 @@ html{
     font-size: 40px;
     color: white;
     margin-bottom: 0%;
-    margin-top: -2%;
+    margin-top: -6%;
     font-family: 'Dosis', sans-serif; 
 }
 @media only screen and (min-width: 321px) and (max-width: 425px){

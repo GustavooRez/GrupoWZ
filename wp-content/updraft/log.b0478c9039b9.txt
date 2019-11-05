@@ -243,3 +243,7 @@
 0112.422 (0) The backup apparently succeeded and is now complete
 0112.593 (0) No email will/can be sent - the user has not configured an email address.
 0112.730 (0) O backup aparentemente foi bem sucedido e está completo agora.
+0000.000 (1) Opened log file at time: Tue, 05 Nov 2019 04:12:41 +0000 on http://localhost/GrupoWZ
+0000.054 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.2.4 PHP: 7.3.5 (apache2handler, Windows NT GUSTAVO-PC 10.0 build 18362 (Windows 10) AMD64) MySQL: 10.1.39-MariaDB WPLANG: pt_BR Server: Apache/2.4.39 (Win64) OpenSSL/1.1.1b PHP/7.3.5 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 26.7M | 2M) multisite: N openssl: OpenSSL 1.1.1b  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.108 (1) Free space on disk containing Updraft's temporary directory: 191558.5 MB
+0000.174 (1) This backup task (b0478c9039b9) is either complete or began over 2 days ago: ending (1572927161.7946, ) (existing jobdata keys: )
