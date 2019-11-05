@@ -13,7 +13,9 @@
 
 				<div class="direita_footer">
 					<div><img class="logo_footer" src="<?php echo get_template_directory_uri(); ?>/img/logo_footer_wz.png"></div>
-					<div><i class="icon fab fa-facebook-f"></i><i class="icon fab fa-instagram"></i><i class="icon fab fa-linkedin-in"></i></div>
+					<div><a href="https://facebook.com/grupowzbrasil" target="_blank"><i class="icon fab fa-facebook-f" aria-hidden="true" ></a></i>
+					<a href="https://instagram.com/grupowzbrasil"><i class="icon fab fa-instagram"></a></i>
+					<a href="https://linkedin.com/grupowzbrasil"><i class="icon fab fa-linkedin-in"></a></i></div>
 
 				</div>            
 		</footer>			

@@ -80,6 +80,10 @@ html{
     background-color: #024896;
 }
 
+.direita_footer a{
+    color: white!important;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 425px){
     .footer-copyright a img {
         width: 85%;
@@ -747,7 +751,7 @@ html{
 .traco_clientes{
     margin-top: -5%;
     margin-bottom: 1%;
-    padding-left: 71%;
+    padding-left: 75%;
     font-size: 60px;
     color:#0A73B6;
 }
