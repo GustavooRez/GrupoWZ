@@ -12,6 +12,26 @@ if (class_exists('Redux')) {
 }
 
 
+// Our custom post type function
+function create_posttype() {
+ 
+    register_post_type( 'servicos',
+    // CPT Options
+        array(
+            'labels' => array(
+                'name' => __( 'Serviços' ),
+                'singular_name' => __( 'Serviço' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array('slug' => 'servicos'),
+        )
+    );
+}
+// Hooking up our function to theme setup
+add_action( 'init', 'create_posttype' );
+
+
 function byron_styles()
 {
 
@@ -36,6 +56,13 @@ function byron_styles()
 }
 add_action('wp_enqueue_scripts', 'byron_styles');
 
-
+function byron_menus() {
+    register_nav_menus(
+        array(
+            'primary' => __( 'Menu Desktop' )
+        )
+    );
+}
+add_action( 'init', 'byron_menus' );
 
 

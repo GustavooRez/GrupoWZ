@@ -41,6 +41,11 @@ html{
     color: #0A73B6;
 }
 
+.nav_home_white{
+    background-color: white!important;
+}
+
+
 
 
 @media only screen and (max-width: 425px){
@@ -534,6 +539,7 @@ html{
 @media only screen and (min-width: 320px) and (max-width: 425px){
     .grid_empresa{
         grid-template-columns: 1fr;
+        margin-top: 6%;
     }
 
     .imagem_empresa{
@@ -647,7 +653,7 @@ html{
     }
 
     .traco_missoes{
-        font-size: 28px;
+        font-size: 20px;
     }
 
 }   
@@ -769,8 +775,12 @@ html{
 }
 
 .cliente_logo71{
-    padding-top: 12%;
+    padding-top: 20%;
     width: 80%;
+    padding-left: 10%;
+}
+.cliente_logo9i{
+    padding-left: 18%;
 }
 
 
@@ -790,11 +800,12 @@ html{
         width: 90%;
     }
     .cliente_logo2{
-        padding-left: 0%;
-        width: 80%;
+        padding-left: 13%;
+        width: 90%;
+        padding-top: 7%;
     }
     .cliente_logo3{
-        padding-left: 0%;
+        padding-right: 17%;
         width: 100%;
     }
 
@@ -808,7 +819,7 @@ html{
         width: 90%;
     }
     .cliente_logo9i{
-        padding-left: 0%;
+        padding-left: 8%;
         width: 90%;
     }
     .cliente_logo8{
@@ -841,6 +852,9 @@ html{
     .cliente_logo1{
         padding-left: 0%;
     }
+    .cliente_logo2 {
+    padding-left: 6%;
+}
 
 }
 
@@ -888,11 +902,130 @@ html{
 
 }
 
-.cliente_logo9i{
-    padding-left: 18%;
+.container_clientes{
+ position: relative;
+}
+
+.overlay_clientes1{
+    position: absolute;
+    bottom: 0;
+    background: black;
+    color: #f1f1f1;
+    width: 90%;
+    margin-left: 15%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    transition: .5s ease;
+    opacity: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container_clientes:hover .overlay_clientes1{
+  opacity: 1;
+}
+
+.overlay_clientes2{
+    position: absolute;
+    bottom: 0;
+    background: black;
+    color: #f1f1f1;
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    transition: .5s ease;
+    opacity: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container_clientes:hover .overlay_clientes2{
+  opacity: 1;
+}
+
+.overlay_clientes3{
+    position: absolute;
+    bottom: 0;
+    background: black;
+    color: #f1f1f1;
+    width: 50%;
+    margin-left: 50%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    transition: .5s ease;
+    opacity: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container_clientes:hover .overlay_clientes3{
+  opacity: 1;
+}
+
+.overlay_clientes4{
+    position: absolute;
+    bottom: 0;
+    background: black;
+    color: #f1f1f1;
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    transition: .5s ease;
+    opacity: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container_clientes:hover .overlay_clientes4{
+  opacity: 1;
+}
+
+.overlay_clientes5{
+    position: absolute;
+    bottom: 0;
+    background: black;
+    color: #f1f1f1;
+    width: 45%;
+    margin-left: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    transition: .5s ease;
+    opacity: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container_clientes:hover .overlay_clientes5{
+  opacity: 1;
 }
 
 
+@media only screen and (min-width: 320px) and (max-width: 425px){
+.overlay_clientes1{
+margin-left: 5%;
+}
+
+.overlay_clientes3 {
+    width: 70%;
+    margin-left: 5%;
+}
+.overlay_clientes4 {
+    width: 70%;
+    margin-left: 17%;
+}
+
+.overlay_clientes5 {
+    width: 75%;
+    margin-left: 0%;
+}
+.overlay_clientes2 {
+    width: 60%;
+    margin-left: 14%;
+}
+
+}
 
 
 
@@ -928,7 +1061,7 @@ html{
     font-family: 'Dosis', sans-serif; 
     margin-top: -10%;
 }
- 
+
 }
 
 #svg-map text { fill:#003399; font:12px Dosis; cursor:pointer }
@@ -980,6 +1113,14 @@ html{
     padding-bottom: 2%;
     margin-top: -48%;
     margin-left: 56%;
+}
+
+.titulo_saopaulo{
+    text-align: center;
+    font-size: 2.5rem;
+    color: red;
+    padding-top: 3%;
+    margin-bottom: 0;
 }
 
 .titulo_sp{
@@ -1128,54 +1269,171 @@ html{
     margin-top: -6%;
     font-family: 'Dosis', sans-serif; 
 }
+
+
 @media only screen and (min-width: 321px) and (max-width: 425px){
 
     .bases img{
         width: 425px;
-        height: 425px;
+        height: 435px;
     }
     svg:not(:root){
-        margin-top: -155%;
+        margin-top: -185%;
         width: 190%;
     }
     .bases_titulo {
         padding-left: 47%;
         padding-top: 0%;
         font-size: 35px;
-        margin-top: -187%;
+        margin-top: -200%;
     }
     .bases_traco{
         font-size: 13px;
         padding-left: 47%;
     }
 
+    .bases_descricao {
+        padding-left: 0%;
+        padding-top: 0%;
+        margin-top: 0%;
+        margin-left: -87%;
+        font-size: 1.3rem;
+        margin-bottom: 0%;
+        margin-top: 132%;
+    }
+    #msg-saopaulo{
+        margin-left: -70%;
+        width: 60%;
+        margin-top: 25%;
+    }
+
+    #bases-saopaulo{
+        margin-top: -160%;
+        width: 70%;
+        margin-left: 20%;
+    }
+
+    #msg-rgs{
+        margin-left: -70%;
+        width: 60%;
+        margin-top: 25%;
+    }
+
+    #bases-rgs{
+        margin-top: -160%;
+        width: 70%;
+        margin-left: 20%;
+    }
+
+    .titulo_saopaulo{
+        font-size: 1.8rem;
+    }
+
+    .titulo_rgs{
+        font-size: 1.7rem;
+    }
+
+    #msg-mgs{
+        margin-left: -30%;
+    }
+
+    #msg-toca{
+        margin-left: -30%;
+    }
+    #msg-mg{
+        margin-left: -30%;
+    }
+    #msg-parana{
+        margin-left: -30%;
+    }
+    #msg-bahia{
+        margin-left: -30%;
+    }
 }
 @media only screen and (max-width: 320px){
 
     .bases img{
         width: 319px;
-        height: 400px;
+        height: 425px;
     }
     svg:not(:root){
-        margin-top: -228%;
+        margin-top: -265%;
         width: 200%;
     }
     .bases_titulo {
         padding-left: 25%;
         padding-top: 0%;
         font-size: 30px;
-        margin-top: -225%;
+        margin-top: -250%;
     }
     .bases_traco{
         font-size: 13px;
         padding-left: 25%;
     }
+
+        .bases_descricao {
+        padding-left: 0%;
+        padding-top: 0%;
+        margin-top: 0%;
+        margin-left: -87%;
+        font-size: 1.3rem;
+        margin-bottom: 0%;
+        margin-top: 155%;
+    }
+    #msg-saopaulo{
+        margin-left: -70%;
+        width: 60%;
+        margin-top: 25%;
+    }
+
+    #bases-saopaulo{
+        margin-top: -240%;
+        width: 70%;
+        margin-left: 20%;
+    }
+    #msg-rgs{
+        margin-left: -70%;
+        width: 60%;
+        margin-top: 25%;
+    }
+
+    #bases-rgs{
+        margin-top: -225%;
+        width: 70%;
+        margin-left: 20%;
+    }
+
+    .titulo_saopaulo{
+        font-size: 1.5rem;
+    }
+
+    .titulo_rgs{
+        font-size: 1.5rem;
+    }
+
+    #msg-mgs{
+        margin-left: -30%;
+    }
+
+    #msg-toca{
+        margin-left: -30%;
+    }
+    #msg-mg{
+        margin-left: -30%;
+    }
+    #msg-parana{
+        margin-left: -30%;
+    }
+    #msg-bahia{
+        margin-left: -30%;
+    }
+
 }
 
 @media only screen and (min-width: 426px) and (max-width: 768px){
 
     .bases_titulo{
-        font-size: 45px;
+        font-size: 35px;
         padding-top: 6%;
     }
 
@@ -1189,6 +1447,56 @@ html{
         width: 100%;
         margin-top: -35%;
     }
+
+    .bases_descricao{
+        font-size: 1.4rem;
+        padding-left: 0;
+    }
+
+    .titulo_sp{
+        font-size: 2rem;
+    }
+
+    .sede_sp{
+        font-size: 1.5rem;
+    }
+
+    .traco_bases{
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    .titulo_saopaulo{
+        font-size: 1.8rem;
+    }
+
+    .texto_sp{
+        font-size: 1rem;
+    }
+
+    #msg-saopaulo {
+    width: 45%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+    #bases-saopaulo{
+        margin-top: -58%;
+    }
+    .texto_bases_sp{
+    font-size: 1rem;
+}
+    .traco_bases-sp{
+        margin-top: -20%;   
+    }
+
+    .titulo_rgs{
+        font-size: 1.4rem;
+    }
+
+    #bases-rgs{
+        margin-top: -55%;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px){
@@ -1198,6 +1506,55 @@ html{
     svg:not(:root) {
         width: 100%;
         margin-top: -15%;
+    }
+        .bases_descricao{
+        font-size: 1.6rem;
+        padding-left: 0;
+    }
+
+        .titulo_sp{
+        font-size: 2rem;
+    }
+
+    .sede_sp{
+        font-size: 1.5rem;
+    }
+
+    .traco_bases{
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    .titulo_saopaulo{
+        font-size: 1.8rem;
+    }
+
+    .texto_sp{
+        font-size: 1.2rem;
+    }
+
+    #msg-saopaulo {
+    width: 45%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+    #bases-saopaulo{
+        margin-top: -50%;
+    }
+    .texto_bases_sp{
+    font-size: 1.2rem;
+}
+    .traco_bases-sp{
+        margin-top: -20%;   
+    }
+
+    .titulo_rgs{
+        font-size: 1.6rem;
+    }
+
+    #bases-rgs{
+        margin-top: -50%;
     }
 }
 
@@ -1266,6 +1623,7 @@ body{
     width: 100%;
 }
 
+
 /*Blog*/
 
 .blog_titulo{
@@ -1302,7 +1660,9 @@ body{
   }
 
 .caixa_post{
-    background-color: #eceaea;
+    width:95%;
+    border-radius: 10px;
+    background-color: #fdfdfd;
     -webkit-box-shadow: -1px 2px 8px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    -1px 2px 8px 0px rgba(50, 50, 50, 0.75);
     box-shadow:         -1px 2px 8px 0px rgba(50, 50, 50, 0.75);
@@ -1321,4 +1681,61 @@ body{
 
 .post_imagem{
     max-width:100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.conteudo_post{
+    padding-left:5%;
+}
+
+.titulo_post{
+    font-size:1.1rem;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+}
+
+.data_post{
+    font-size:0.85rem;
+    color:darkgray;
+}
+
+.content_post{
+    color: rgb(112, 111, 111);
+}
+.saiba_button{
+    padding-bottom:5%;
+    padding-left:5%;
+    font-style: rgb(109, 108, 108);
+}
+
+#leia_mais{
+    color:rgb(114, 113, 113);
+}
+.saiba_button a{
+    background-color: rgb(226, 225, 225);
+}
+
+.saiba_button a:hover {
+    background-color: rgb(226, 225, 225);
+}
+
+.saiba_button a:active {
+    background-color: rgb(226, 225, 225);
+}
+
+.saiba_button a:focus {
+    background-color: rgb(226, 225, 225);
+}
+
+
+/*Singular Post*/
+
+.container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container {
+
+    width: 50%;
 }

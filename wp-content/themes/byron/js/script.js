@@ -1,12 +1,12 @@
 
 $(window).on("scroll", function() {
   AOS.refresh();
-  if($(window).scrollTop() == 0) {
-    $("nav").addClass("nav-white" );
-    $("nav").removeClass("nav-black");
+  if($(window).scrollTop() == '') {
+    $("").addClass("" );
+    $("").removeClass("");
   } else {
-    $("nav").addClass("nav-black");
-    $("nav").removeClass("nav-white");
+    $("").addClass("");
+    $("").removeClass("");
   }
 });
 
@@ -65,4 +65,5 @@ $(document).ready(function(){
   });
 
 });
+
 

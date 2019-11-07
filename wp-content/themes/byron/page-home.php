@@ -366,39 +366,33 @@
 			<div> 
 				<p class="bases_titulo"><?php the_field('bases');?></p><p class="bases_traco">_______________________</p>
 
-				<p class="bases_descricao">Realizamos serviços em qualquer localidade do país</p>
+				<p class="bases_descricao"><?php the_field('descricao_bases');?></p>
 
 				<div id="msg-saopaulo" style="display:none">
-					<p class="titulo_sp">SÃO PAULO</p>
+					<p class="titulo_saopaulo">SÃO PAULO</p>
 					<p class="sede_sp">SEDE</p>
 					<p class="traco_bases">____________</p>
-					<p class="texto_sp"> Mogi Guaçu - SP<br>
-						Rua Pres. John F Kennedy, 42<br>
-						Bairro Jardim Centenário<br>
-					(19) 3818-4839</p>
+					<p class="texto_sp"><?php the_field('texto_sao_paulo');?></p>
 				</div>
 
 				<div id="bases-saopaulo" style="display:none">
 					<p class="equipe_sp">EQUIPES</p>
 					<p class="traco_bases-sp">____________</p>
-					<p class="texto_bases_sp">Brotas<br>Luis Antônio<br>Altinópolis<br>Salto<br>Pelotas<br>São Miguel Arcanjo<br>Avaré<br>Botucatu<br>Itatinga</p>
+					<p class="texto_bases_sp"><?php the_field('bases_sao_paulo');?></p>
 				</div>
 
 				<div id="msg-rgs" style="display:none">
 					<p class="titulo_rgs">RIO GRANDE DO SUL</p>
 					<p class="sede_sp">FILIAL</p>
 					<p class="traco_bases">____________</p>
-					<p class="texto_sp">Guaíba - RS<br>
-						Rua Jornal O Guaíba, 174<br>
-						Bairro Morada das Colinas<br>
-					(51) 3480-2332</p>
+					<p class="texto_sp"><?php the_field('texto_rio_grande_do_sul');?></p>
 
 				</div>
 
 				<div id="bases-rgs" style="display:none">
 					<p class="equipe_sp">EQUIPES</p>
 					<p class="traco_bases">____________</p>
-					<p class="texto_sp">Butiá <br>Caxias do Sul<br>São Gabriel<br>Tramandaí<br>Pelotas<br>Encruzilhada do Sul</p>
+					<p class="texto_sp"><?php the_field('bases_rio_grande_do_sul');?></p>
 				</div>
 
 
@@ -406,7 +400,7 @@
 					<p class="titulo_sp">MINAS GERAIS</p>
 					<p class="sede_sp">EQUIPE</p>
 					<p class="traco_bases">____________</p>
-					<p class="texto_sp">Poços de Caldas</p>
+					<p class="texto_sp"><?php the_field('texto_minas_gerais');?></p>
 
 				</div>
 
@@ -414,7 +408,7 @@
 					<p class="titulo_sp">BAHIA</p>
 					<p class="sede_sp">EQUIPE</p>
 					<p class="traco_bases">____________</p>
-					<p class="texto_sp">Posto da Mata</p>
+					<p class="texto_sp"><?php the_field('texto_bahia');?></p>
 
 				</div>				
 
@@ -422,23 +416,21 @@
 					<p class="titulo_sp">TOCANTINS</p>
 					<p class="sede_sp">EQUIPE</p>
 					<p class="traco_bases">____________</p>
-					<p class="texto_sp">Colina do Tocantins<br>
-						Urbano Santos</p>
+					<p class="texto_sp"><?php the_field('texto_tocantins');?></p>
 					</div>
 
 				<div id="msg-parana" style="display:none">
 					<p class="titulo_sp">PARANÁ</p>
 					<p class="sede_sp">EQUIPE</p>
 					<p class="traco_bases">____________</p>
-					<p class="texto_sp">Arapoti<br>
-						Telêmaco Borba</p>
+					<p class="texto_sp"><?php the_field('texto_parana');?></p>
 					</div>	
 
 				<div id="msg-mgs" style="display:none">
 					<p class="titulo_sp">MATO GROSSO DO SUL</p>
 					<p class="sede_sp">EQUIPE</p>
 					<p class="traco_bases">____________</p>
-					<p class="texto_sp">Três Lagoas</p>
+					<p class="texto_sp"><?php the_field('texto_mato_grosso_do_sul');?></p>
 					</div>										
 
 
@@ -491,19 +483,34 @@
 			<h1 class="clientes_titulo"><?php the_field('titulo_clientes');?></h1>
 			<h1 class="traco_clientes">___________</h1>
 			<div class="clientes_grid6">
-				<div><a href="http://internationalpaper.com.br"><img class="cliente_logo9i " src="<?php the_field('cliente_1');?>"></a></div>
-				<div><a href="https://cmpcbrasil.com.br"><img class="cliente_logo8" src="<?php the_field('cliente_2');?>"></a></div>
-				<div><a href="https://arauco.cl"><img class="cliente_logo7" src="<?php the_field('cliente_3');?>"></a></div>
-				<div><a href="https://eucatex.com.br"><img class="cliente_logo9" src="<?php the_field('cliente_4');?>"></a></div>
-				<div><a href="https://klabin.com.br"><img class="cliente_logo8" src="<?php the_field('cliente_5');?>"></a></div>
-				<div><a href="https://asperbras.com"><img class="cliente_logo71" src="<?php the_field('cliente_6');?>"></a></div>
+
+				<div class="container_clientes"><a href="http://internationalpaper.com.br"><img class="cliente_logo9i " src="<?php the_field('cliente_1');?>"></a><div class="overlay_clientes1"></div></div>
+
+				<div class="container_clientes"><a href="https://cmpcbrasil.com.br"><img class="cliente_logo8" src="<?php the_field('cliente_2');?>"></a><div class="overlay_clientes2"></div></div>
+
+				<div class="container_clientes"><a href="https://arauco.cl"><img class="cliente_logo7" src="<?php the_field('cliente_3');?>"></a><div class="overlay_clientes2"></div></div>
+
+				<div class="container_clientes"><a href="https://eucatex.com.br"><img class="cliente_logo9" src="<?php the_field('cliente_4');?>"></a><div class="overlay_clientes2"></div></div>
+
+				<div class="container_clientes"><a href="https://klabin.com.br"><img class="cliente_logo8" src="<?php the_field('cliente_5');?>"></a><div class="overlay_clientes2"></div></div>
+
+				<div class="container_clientes"><a href="https://asperbras.com"><img class="cliente_logo71" src="<?php the_field('cliente_6');?>"></a><div class="overlay_clientes2"></div></div>
 
 			</div>
 			<div class="clientes_grid3">
-				<div><a href="https://suzano.com.br/"><img class="cliente_logo1" src="<?php the_field('cliente_7');?>"></a></div>
-				<div><a href="https://cenibra.com.br"><img class="cliente_logo2" src="<?php the_field('cliente_8');?>"></a></div>
-				<div><a href="https://sguariomadeiras.com.br"><img class="cliente_logo3" src="<?php the_field('cliente_9');?>"></a></div>				
+
+				<div class="container_clientes"><a href="https://suzano.com.br/"><img class="cliente_logo1" src="<?php the_field('cliente_7');?>"></a><div class="overlay_clientes3"></div></div>
+
+				<div class="container_clientes"><a href="https://cenibra.com.br"><img class="cliente_logo2" src="<?php the_field('cliente_8');?>"></a><div class="overlay_clientes4"></div></div>
+
+				<div class="container_clientes"><a href="https://sguariomadeiras.com.br"><img class="cliente_logo3" src="<?php the_field('cliente_9');?>"></a><div class="overlay_clientes5"></div></div>				
 			</div>
+		</div>
+	</section>
+
+	<section id="contato">
+		<div class="contato">
+			<h2>Contato</h2>
 		</div>
 	</section>
 
